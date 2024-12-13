@@ -5,7 +5,8 @@ keep_versions: 5
 build:
     build_pack:
         type: shopware
-        settings: {}
+        settings:
+          profiler: tideways
     dockerfile: Dockerfile
 server:
     address: nightly.sw-bench.de
@@ -23,13 +24,18 @@ app:
   env:
     APP_URL:
       expr: '"https://" + config.Proxy.Host'
-    TRUSTED_PROXIES:
-      value: REMOTE_ADDR
+    COMPOSER_PLUGIN_LOADER:
+      value: 1
     DATABASE_URL:
       expr: 'service.database.url'
+    TIDEWAYS_CONNECTION:
+      expr: 'service.tideways.url'
   initial_secrets:
     APP_SECRET:
       expr: 'randomString(32)'
+  secrets:
+    from_stored:
+      TIDEWAYS_APIKEY:
   mounts:
     jwt:
       path: config/jwt
@@ -65,3 +71,5 @@ services:
       sql_mode: 'error_for_division_by_zero'
   cache:
     type: valkey:8.0
+  tideways:
+    type: tideways:latest
