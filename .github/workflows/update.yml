@@ -1,0 +1,40 @@
+name: Daily Composer Update
+
+on:
+  schedule:
+    # Runs at 1 AM UTC every day
+    - cron: '0 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-dependencies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+          tools: composer:v2
+
+      - name: Update Composer dependencies
+        run: |
+          composer update
+
+      - name: Check for modified files
+        id: git-check
+        run: |
+          git status --porcelain
+          echo "modified=$(if git status --porcelain | grep '^[^?]'; then echo "true"; else echo "false"; fi)" >> $GITHUB_OUTPUT
+
+      - name: Commit changes
+        if: steps.git-check.outputs.modified == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add composer.lock
+          git commit -m "chore: update composer dependencies"
+          git push
