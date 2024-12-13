@@ -1,0 +1,67 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/shyim/tanjun/refs/heads/main/schema.json
+name: shopware-nightly
+image: ghcr.io/shopwarelabs/shopware-nightly
+keep_versions: 5
+build:
+    build_pack:
+        type: shopware
+        settings: {}
+    dockerfile: Dockerfile
+server:
+    address: nightly.sw-bench.de
+    username: root
+    port: 22
+proxy:
+    host: nightly.sw-bench.de
+    healthcheck:
+        interval: 1
+        timeout: 5
+        path: /
+    response_timeout: 30
+    ssl: true
+app:
+  env:
+    APP_URL:
+      expr: '"https://" + config.Proxy.Host'
+    TRUSTED_PROXIES:
+      value: REMOTE_ADDR
+    DATABASE_URL:
+      expr: 'service.database.url'
+  initial_secrets:
+    APP_SECRET:
+      expr: 'randomString(32)'
+  mounts:
+    jwt:
+      path: config/jwt
+    files:
+      path: files
+    bundles:
+      path: public/bundles
+    theme:
+      path: public/theme
+    media:
+      path: public/media
+    thumbnail:
+      path: public/thumbnail
+    sitemap:
+      path: public/sitemap
+  workers:
+    worker:
+      command: 'php bin/console messenger:consume async --time-limit=3600'
+  cronjobs:
+    - name: scheduled-task
+      schedule: '@every 5m'
+      command: 'php bin/console scheduled-task:run --no-wait'
+  hooks:
+    deploy: |
+      ./vendor/bin/shopware-deployment-helper run --skip-theme-compile
+    post_deploy: |
+      ./bin/console theme:compile --active-only
+
+services:
+  database:
+    type: mysql:8.0
+    settings:
+      sql_mode: 'error_for_division_by_zero'
+  cache:
+    type: valkey:8.0

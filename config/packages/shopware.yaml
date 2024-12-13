@@ -1,0 +1,31 @@
+framework:
+  trusted_proxies: 'REMOTE_ADDR'
+  trusted_headers: [ 'x-forwarded-for',  'x-forwarded-proto' ]
+  profiler:
+    enabled: false
+  secrets:
+    enabled: false
+  cache:
+    app: cache.adapter.redis_tag_aware
+    system: cache.adapter.redis_tag_aware
+    default_redis_provider: redis://cache?persistent=1
+
+shopware:
+  auto_update:
+    enabled: false
+  feature_toggle:
+    enable: false
+  html_sanitizer:
+    enabled: false
+  mail:
+    update_mail_variables_on_send: false
+  cart:
+    compress: false
+  cache:
+    cache_compression: false
+    tagging:
+      each_config: false
+      each_snippet: false
+      each_theme_config: false
+    invalidation:
+      http_cache: [ ]
