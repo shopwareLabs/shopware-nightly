@@ -23,14 +23,7 @@ jobs:
         run: |
           composer update
 
-      - name: Check for modified files
-        id: git-check
-        run: |
-          git status --porcelain
-          echo "modified=$(if git status --porcelain | grep '^[^?]'; then echo "true"; else echo "false"; fi)" >> $GITHUB_OUTPUT
-
       - name: Commit changes
-        if: steps.git-check.outputs.modified == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
