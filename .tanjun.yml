@@ -24,6 +24,10 @@ app:
   env:
     APP_URL:
       expr: '"https://" + config.Proxy.Host'
+    APP_ENV:
+      value: prod
+    SHOPWARE_HTTP_CACHE_ENABLED:
+      value: 1
     COMPOSER_PLUGIN_LOADER:
       value: 1
     DATABASE_URL:
