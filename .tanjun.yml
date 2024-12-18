@@ -7,6 +7,9 @@ build:
         type: shopware
         settings:
           profiler: tideways
+          ini:
+            tideways.sample_rate: '10'
+            opcache.preload: '/app/var/cache/opcache-preload.php'
     dockerfile: Dockerfile
 server:
     address: nightly.sw-bench.de
