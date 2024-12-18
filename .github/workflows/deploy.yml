@@ -5,10 +5,15 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
+concurrency: 
+  group: deploy
+  cancel-in-progress: false
 
 jobs:
   production:
     runs-on: ubuntu-latest
+    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
