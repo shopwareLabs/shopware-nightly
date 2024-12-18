@@ -37,6 +37,8 @@ app:
       value: "1"
     SQL_SET_DEFAULT_SESSION_VARIABLES:
       value: "0"
+    ENABLE_SERVICES:
+      value: "0"
     DATABASE_URL:
       expr: 'service.database.url'
     TIDEWAYS_CONNECTION:
