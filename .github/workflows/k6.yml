@@ -1,5 +1,7 @@
 name: K6
 on:
+  schedule:
+    - cron: '0 5 * * *'
   workflow_dispatch:
 
 jobs:
