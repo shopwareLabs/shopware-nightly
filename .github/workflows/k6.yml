@@ -1,0 +1,26 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup K6
+        uses: grafana/setup-k6-action@v1
+
+      - name: Run K6
+        working-directory: k6
+        run: k6 run run.js --summary-export k6.json
+
+      - name: Generate Summary
+        working-directory: k6
+        run: node comment.js > comment.txt
+
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: 1
+          body-path: k6/comment.txt
