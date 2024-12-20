@@ -17,7 +17,7 @@ jobs:
 
       - name: Generate Summary
         working-directory: k6
-        run: node comment.js > comment.txt
+        run: node comment.mjs > comment.txt
 
       - name: Create comment
         uses: peter-evans/create-or-update-comment@v4
