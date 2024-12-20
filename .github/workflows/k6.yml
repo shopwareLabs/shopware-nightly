@@ -1,3 +1,4 @@
+name: K6
 on:
   workflow_dispatch:
 

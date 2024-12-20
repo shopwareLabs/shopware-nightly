@@ -9,6 +9,7 @@ console.log(``)
 console.log(`## Summary Table`)
 console.log(``)
 console.log(`| Key | Value |`)
+console.log(`| ------------- | ------------- |`)
 
 for (const [key, val] of Object.entries(report.metrics)) {
   if (val.max) {
@@ -17,3 +18,5 @@ for (const [key, val] of Object.entries(report.metrics)) {
     console.log(`| ${key} | ${val.count} |`)
   }
 }
+
+console.log(``)
