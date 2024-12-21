@@ -499,13 +499,13 @@
             },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-main": "3.x-dev"
-                },
                 "phpstan": {
                     "includes": [
                         "extension.neon"
                     ]
+                },
+                "branch-alias": {
+                    "dev-main": "3.x-dev"
                 }
             },
             "autoload": {
@@ -1688,8 +1688,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "ocramius/proxy-manager",
-                    "url": "https://github.com/Ocramius/ProxyManager"
+                    "url": "https://github.com/Ocramius/ProxyManager",
+                    "name": "ocramius/proxy-manager"
                 }
             },
             "autoload": {
@@ -2619,16 +2619,16 @@
         },
         {
             "name": "league/oauth2-server",
-            "version": "8.5.4",
+            "version": "8.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/oauth2-server.git",
-                "reference": "ab7714d073844497fd222d5d0a217629089936bc"
+                "reference": "cc8778350f905667e796b3c2364a9d3bd7a73518"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/oauth2-server/zipball/ab7714d073844497fd222d5d0a217629089936bc",
-                "reference": "ab7714d073844497fd222d5d0a217629089936bc",
+                "url": "https://api.github.com/repos/thephpleague/oauth2-server/zipball/cc8778350f905667e796b3c2364a9d3bd7a73518",
+                "reference": "cc8778350f905667e796b3c2364a9d3bd7a73518",
                 "shasum": ""
             },
             "require": {
@@ -2695,7 +2695,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/oauth2-server/issues",
-                "source": "https://github.com/thephpleague/oauth2-server/tree/8.5.4"
+                "source": "https://github.com/thephpleague/oauth2-server/tree/8.5.5"
             },
             "funding": [
                 {
@@ -2703,7 +2703,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-25T22:35:12+00:00"
+            "time": "2024-12-20T23:06:10+00:00"
         },
         {
             "name": "league/uri",
@@ -4584,12 +4584,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "03a86d3a67317950c7034eaa49683792fdbde375"
+                "reference": "1d7aad834ef2e4232199dce76fe1e409015fc253"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/03a86d3a67317950c7034eaa49683792fdbde375",
-                "reference": "03a86d3a67317950c7034eaa49683792fdbde375",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/1d7aad834ef2e4232199dce76fe1e409015fc253",
+                "reference": "1d7aad834ef2e4232199dce76fe1e409015fc253",
                 "shasum": ""
             },
             "require": {
@@ -4628,7 +4628,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-12-19T04:09:50+00:00"
+            "time": "2024-12-20T04:09:42+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -4675,12 +4675,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "6aaa1420584238189956ca4f73a743e06cf8dc6c"
+                "reference": "c2672b36829ea508a91c9d6028d391e73deef6f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/6aaa1420584238189956ca4f73a743e06cf8dc6c",
-                "reference": "6aaa1420584238189956ca4f73a743e06cf8dc6c",
+                "url": "https://api.github.com/repos/shopware/core/zipball/c2672b36829ea508a91c9d6028d391e73deef6f0",
+                "reference": "c2672b36829ea508a91c9d6028d391e73deef6f0",
                 "shasum": ""
             },
             "require": {
@@ -4856,7 +4856,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-12-19T03:17:15+00:00"
+            "time": "2024-12-19T13:30:28+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -4931,12 +4931,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "5c3679baefaaf50d0f7c918eb2664279499e56fd"
+                "reference": "ab814dbd30c558323244f23c80fa46239f6962f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/5c3679baefaaf50d0f7c918eb2664279499e56fd",
-                "reference": "5c3679baefaaf50d0f7c918eb2664279499e56fd",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/ab814dbd30c558323244f23c80fa46239f6962f2",
+                "reference": "ab814dbd30c558323244f23c80fa46239f6962f2",
                 "shasum": ""
             },
             "require": {
@@ -4999,7 +4999,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-12-19T04:09:50+00:00"
+            "time": "2024-12-20T04:09:42+00:00"
         },
         {
             "name": "squirrelphp/twig-php-syntax",
