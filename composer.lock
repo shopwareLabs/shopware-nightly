@@ -4584,12 +4584,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "1d7aad834ef2e4232199dce76fe1e409015fc253"
+                "reference": "548254c653a1da2cc157e1bb2b7647a013d58f43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/1d7aad834ef2e4232199dce76fe1e409015fc253",
-                "reference": "1d7aad834ef2e4232199dce76fe1e409015fc253",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/548254c653a1da2cc157e1bb2b7647a013d58f43",
+                "reference": "548254c653a1da2cc157e1bb2b7647a013d58f43",
                 "shasum": ""
             },
             "require": {
@@ -4628,7 +4628,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-12-20T04:09:42+00:00"
+            "time": "2024-12-23T04:10:14+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -4675,12 +4675,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "c2672b36829ea508a91c9d6028d391e73deef6f0"
+                "reference": "c3f87899b61a10311d0e474f6ba42a9444549a3f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/c2672b36829ea508a91c9d6028d391e73deef6f0",
-                "reference": "c2672b36829ea508a91c9d6028d391e73deef6f0",
+                "url": "https://api.github.com/repos/shopware/core/zipball/c3f87899b61a10311d0e474f6ba42a9444549a3f",
+                "reference": "c3f87899b61a10311d0e474f6ba42a9444549a3f",
                 "shasum": ""
             },
             "require": {
@@ -4856,7 +4856,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-12-19T13:30:28+00:00"
+            "time": "2024-12-20T13:20:15+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -4931,12 +4931,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "ab814dbd30c558323244f23c80fa46239f6962f2"
+                "reference": "b7414b39fd45d9e4c6f67efc74de167b76f680b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/ab814dbd30c558323244f23c80fa46239f6962f2",
-                "reference": "ab814dbd30c558323244f23c80fa46239f6962f2",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/b7414b39fd45d9e4c6f67efc74de167b76f680b4",
+                "reference": "b7414b39fd45d9e4c6f67efc74de167b76f680b4",
                 "shasum": ""
             },
             "require": {
@@ -4999,7 +4999,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-12-20T04:09:42+00:00"
+            "time": "2024-12-23T04:10:14+00:00"
         },
         {
             "name": "squirrelphp/twig-php-syntax",
@@ -9770,20 +9770,21 @@
         },
         {
             "name": "tecnickcom/tcpdf",
-            "version": "6.7.8",
+            "version": "6.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "7956f5e37863c6a569d5ccfae826f353a12a2493"
+                "reference": "14ffa0e308f5634aa2489568b4b90b24073b6731"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/7956f5e37863c6a569d5ccfae826f353a12a2493",
-                "reference": "7956f5e37863c6a569d5ccfae826f353a12a2493",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/14ffa0e308f5634aa2489568b4b90b24073b6731",
+                "reference": "14ffa0e308f5634aa2489568b4b90b24073b6731",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0"
+                "ext-curl": "*",
+                "php": ">=7.1.0"
             },
             "type": "library",
             "autoload": {
@@ -9830,7 +9831,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tecnickcom/TCPDF/issues",
-                "source": "https://github.com/tecnickcom/TCPDF/tree/6.7.8"
+                "source": "https://github.com/tecnickcom/TCPDF/tree/6.8.0"
             },
             "funding": [
                 {
@@ -9838,7 +9839,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-12-13T19:31:40+00:00"
+            "time": "2024-12-23T13:34:57+00:00"
         },
         {
             "name": "twig/intl-extra",
