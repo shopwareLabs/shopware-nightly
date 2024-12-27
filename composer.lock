@@ -1529,16 +1529,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "4.0.2",
+            "version": "4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "ebaaf5be6c0286928352e054f2d5125608e5405e"
+                "reference": "b115554301161fa21467629f1e1391c1936de517"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/ebaaf5be6c0286928352e054f2d5125608e5405e",
-                "reference": "ebaaf5be6c0286928352e054f2d5125608e5405e",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/b115554301161fa21467629f1e1391c1936de517",
+                "reference": "b115554301161fa21467629f1e1391c1936de517",
                 "shasum": ""
             },
             "require": {
@@ -1584,7 +1584,7 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/4.0.2"
+                "source": "https://github.com/egulias/EmailValidator/tree/4.0.3"
             },
             "funding": [
                 {
@@ -1592,7 +1592,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-06T06:47:41+00:00"
+            "time": "2024-12-27T00:36:43+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -4584,12 +4584,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "2f9a04df763abd90ce7b4e31590c4093d701dedd"
+                "reference": "502f131d542f025b386628058a1aa44815abadc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/2f9a04df763abd90ce7b4e31590c4093d701dedd",
-                "reference": "2f9a04df763abd90ce7b4e31590c4093d701dedd",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/502f131d542f025b386628058a1aa44815abadc2",
+                "reference": "502f131d542f025b386628058a1aa44815abadc2",
                 "shasum": ""
             },
             "require": {
@@ -4628,7 +4628,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-12-25T04:09:27+00:00"
+            "time": "2024-12-26T04:09:59+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -4931,12 +4931,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "ec745b474bad6b0d171494a8f4a2cdcd59ef8e6f"
+                "reference": "c445ae6ff933d6abe4af74f195022682f4f1953a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/ec745b474bad6b0d171494a8f4a2cdcd59ef8e6f",
-                "reference": "ec745b474bad6b0d171494a8f4a2cdcd59ef8e6f",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/c445ae6ff933d6abe4af74f195022682f4f1953a",
+                "reference": "c445ae6ff933d6abe4af74f195022682f4f1953a",
                 "shasum": ""
             },
             "require": {
@@ -4999,7 +4999,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-12-25T04:09:28+00:00"
+            "time": "2024-12-26T04:09:59+00:00"
         },
         {
             "name": "squirrelphp/twig-php-syntax",
