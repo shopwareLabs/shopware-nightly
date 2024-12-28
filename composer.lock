@@ -4584,12 +4584,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "502f131d542f025b386628058a1aa44815abadc2"
+                "reference": "9b033cffa24322eb7c3dc091d32326e2301ed7e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/502f131d542f025b386628058a1aa44815abadc2",
-                "reference": "502f131d542f025b386628058a1aa44815abadc2",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/9b033cffa24322eb7c3dc091d32326e2301ed7e5",
+                "reference": "9b033cffa24322eb7c3dc091d32326e2301ed7e5",
                 "shasum": ""
             },
             "require": {
@@ -4628,7 +4628,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-12-26T04:09:59+00:00"
+            "time": "2024-12-27T04:09:31+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -4931,12 +4931,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "c445ae6ff933d6abe4af74f195022682f4f1953a"
+                "reference": "ed6135e1a96f94b9d831db11884f64d200c523f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/c445ae6ff933d6abe4af74f195022682f4f1953a",
-                "reference": "c445ae6ff933d6abe4af74f195022682f4f1953a",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/ed6135e1a96f94b9d831db11884f64d200c523f4",
+                "reference": "ed6135e1a96f94b9d831db11884f64d200c523f4",
                 "shasum": ""
             },
             "require": {
@@ -4999,7 +4999,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2024-12-26T04:09:59+00:00"
+            "time": "2024-12-27T04:09:32+00:00"
         },
         {
             "name": "squirrelphp/twig-php-syntax",
@@ -5248,12 +5248,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -5719,12 +5719,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -6088,12 +6088,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -8790,12 +8790,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
@@ -9112,12 +9112,12 @@
             },
             "type": "library",
             "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/contracts",
+                    "name": "symfony/contracts"
+                },
                 "branch-alias": {
                     "dev-main": "3.5-dev"
-                },
-                "thanks": {
-                    "name": "symfony/contracts",
-                    "url": "https://github.com/symfony/contracts"
                 }
             },
             "autoload": {
