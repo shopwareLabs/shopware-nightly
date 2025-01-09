@@ -142,16 +142,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.5.4",
+            "version": "1.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "bc0593537a463e55cadf45fd938d23b75095b7e1"
+                "reference": "08c50d5ec4c6ced7d0271d2862dec8c1033283e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/bc0593537a463e55cadf45fd938d23b75095b7e1",
-                "reference": "bc0593537a463e55cadf45fd938d23b75095b7e1",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/08c50d5ec4c6ced7d0271d2862dec8c1033283e6",
+                "reference": "08c50d5ec4c6ced7d0271d2862dec8c1033283e6",
                 "shasum": ""
             },
             "require": {
@@ -198,7 +198,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.5.4"
+                "source": "https://github.com/composer/ca-bundle/tree/1.5.5"
             },
             "funding": [
                 {
@@ -214,7 +214,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-11-27T15:35:25+00:00"
+            "time": "2025-01-08T16:17:16+00:00"
         },
         {
             "name": "composer/class-map-generator",
@@ -4584,12 +4584,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "fadb4b774fdc36b4e725bfc48588e047c3a8fa02"
+                "reference": "f0240e2ae23299a6367bf009c52923db544ca9e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/fadb4b774fdc36b4e725bfc48588e047c3a8fa02",
-                "reference": "fadb4b774fdc36b4e725bfc48588e047c3a8fa02",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/f0240e2ae23299a6367bf009c52923db544ca9e2",
+                "reference": "f0240e2ae23299a6367bf009c52923db544ca9e2",
                 "shasum": ""
             },
             "require": {
@@ -4628,7 +4628,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-01-08T01:42:29+00:00"
+            "time": "2025-01-08T04:11:05+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -4931,12 +4931,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "736499d5c9c32c0c53262f99b7ff6e90324193ca"
+                "reference": "729380daaa73af9f01ab2610e26ebf07283c5468"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/736499d5c9c32c0c53262f99b7ff6e90324193ca",
-                "reference": "736499d5c9c32c0c53262f99b7ff6e90324193ca",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/729380daaa73af9f01ab2610e26ebf07283c5468",
+                "reference": "729380daaa73af9f01ab2610e26ebf07283c5468",
                 "shasum": ""
             },
             "require": {
@@ -4999,7 +4999,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-01-08T01:41:59+00:00"
+            "time": "2025-01-08T04:11:06+00:00"
         },
         {
             "name": "squirrelphp/twig-php-syntax",
