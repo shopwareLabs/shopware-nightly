@@ -4584,12 +4584,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "ecd42dfecb80bc6c6d49ecd252e28bc61c8900e5"
+                "reference": "42dd1d9495c0b082f0f22779379fc90ec4f2530a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/ecd42dfecb80bc6c6d49ecd252e28bc61c8900e5",
-                "reference": "ecd42dfecb80bc6c6d49ecd252e28bc61c8900e5",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/42dd1d9495c0b082f0f22779379fc90ec4f2530a",
+                "reference": "42dd1d9495c0b082f0f22779379fc90ec4f2530a",
                 "shasum": ""
             },
             "require": {
@@ -4628,7 +4628,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-01-12T01:42:04+00:00"
+            "time": "2025-01-13T01:42:47+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -4931,12 +4931,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "b62c65afb9b9176392789110fafd5a5dc3b67822"
+                "reference": "9f00613ad0bbf531b24c0045f4d2349d8ed23adf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/b62c65afb9b9176392789110fafd5a5dc3b67822",
-                "reference": "b62c65afb9b9176392789110fafd5a5dc3b67822",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/9f00613ad0bbf531b24c0045f4d2349d8ed23adf",
+                "reference": "9f00613ad0bbf531b24c0045f4d2349d8ed23adf",
                 "shasum": ""
             },
             "require": {
@@ -4999,7 +4999,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-01-12T01:41:45+00:00"
+            "time": "2025-01-13T01:42:27+00:00"
         },
         {
             "name": "squirrelphp/twig-php-syntax",
