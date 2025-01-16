@@ -74,6 +74,7 @@ app:
   hooks:
     deploy: |
       ./vendor/bin/shopware-deployment-helper run --skip-theme-compile
+      php bin/console system:update:finish
     post_deploy: |
       ./bin/console theme:compile --active-only
 
