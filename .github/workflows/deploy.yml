@@ -18,17 +18,11 @@ jobs:
       - name: Login to GitHub Container Registry
         run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
 
-      - uses: webfactory/ssh-agent@v0.9.0
+      - name: Setup Tanjun
+        uses: shyim/setup-tanjun@v1
         with:
-            ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-
-      - name: Install tanjun
-        uses: jaxxstorm/action-install-gh-release@v1.10.0
-        with:
-          repo: shyim/tanjun
-
-      - name: Add Host Key
-        run: ssh-keyscan nightly.sw-bench.de >> ~/.ssh/known_hosts
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-server-host: nightly.sw-bench.de
 
       - name: Deploy
         run: tanjun deploy --verbose
