@@ -2254,16 +2254,16 @@
         },
         {
             "name": "lcobucci/jwt",
-            "version": "5.4.2",
+            "version": "5.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lcobucci/jwt.git",
-                "reference": "ea1ce71cbf9741e445a5914e2f67cdbb484ff712"
+                "reference": "a835af59b030d3f2967725697cf88300f579088e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/ea1ce71cbf9741e445a5914e2f67cdbb484ff712",
-                "reference": "ea1ce71cbf9741e445a5914e2f67cdbb484ff712",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/a835af59b030d3f2967725697cf88300f579088e",
+                "reference": "a835af59b030d3f2967725697cf88300f579088e",
                 "shasum": ""
             },
             "require": {
@@ -2311,7 +2311,7 @@
             ],
             "support": {
                 "issues": "https://github.com/lcobucci/jwt/issues",
-                "source": "https://github.com/lcobucci/jwt/tree/5.4.2"
+                "source": "https://github.com/lcobucci/jwt/tree/5.5.0"
             },
             "funding": [
                 {
@@ -2323,7 +2323,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-11-07T12:54:35+00:00"
+            "time": "2025-01-26T21:29:45+00:00"
         },
         {
             "name": "league/event",
@@ -4532,12 +4532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "5822e93b73fde3ac67258c0ba99511252352236f"
+                "reference": "fbd9aa21921f8a9e84b7718a3c63d51e3c905c6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/5822e93b73fde3ac67258c0ba99511252352236f",
-                "reference": "5822e93b73fde3ac67258c0ba99511252352236f",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/fbd9aa21921f8a9e84b7718a3c63d51e3c905c6d",
+                "reference": "fbd9aa21921f8a9e84b7718a3c63d51e3c905c6d",
                 "shasum": ""
             },
             "require": {
@@ -4576,7 +4576,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-01-28T01:41:50+00:00"
+            "time": "2025-01-29T01:41:52+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -4623,12 +4623,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "c8fc08784ec98610765f258700d2226a1793b01c"
+                "reference": "498447f778e32e9b40ac15416d0e07903e7ed0dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/c8fc08784ec98610765f258700d2226a1793b01c",
-                "reference": "c8fc08784ec98610765f258700d2226a1793b01c",
+                "url": "https://api.github.com/repos/shopware/core/zipball/498447f778e32e9b40ac15416d0e07903e7ed0dd",
+                "reference": "498447f778e32e9b40ac15416d0e07903e7ed0dd",
                 "shasum": ""
             },
             "require": {
@@ -4660,7 +4660,7 @@
                 "guzzlehttp/guzzle": "^7.5.0",
                 "guzzlehttp/psr7": "^2.4",
                 "lcobucci/clock": "^3.1.0",
-                "lcobucci/jwt": "^5.0",
+                "lcobucci/jwt": "^5.5",
                 "league/flysystem": "^3.10.3",
                 "league/flysystem-memory": "^3.10.3",
                 "league/mime-type-detection": "^1.13.0",
@@ -4732,7 +4732,7 @@
                 "tecnickcom/tcpdf": "^6.7.7",
                 "twig/intl-extra": "^3.10.0",
                 "twig/string-extra": "^3.10.0",
-                "twig/twig": "^3.14.0",
+                "twig/twig": "^3.18.0",
                 "zircote/swagger-php": "^4.9.2"
             },
             "replace": {
@@ -4810,7 +4810,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-01-27T12:45:45+00:00"
+            "time": "2025-01-28T14:39:18+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -4885,12 +4885,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "e50d1a5d9af5523b3d7fb4dd20929dc63e746c5b"
+                "reference": "144493f72ac7a428f5ebe7d1dd1ad37705cba26b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/e50d1a5d9af5523b3d7fb4dd20929dc63e746c5b",
-                "reference": "e50d1a5d9af5523b3d7fb4dd20929dc63e746c5b",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/144493f72ac7a428f5ebe7d1dd1ad37705cba26b",
+                "reference": "144493f72ac7a428f5ebe7d1dd1ad37705cba26b",
                 "shasum": ""
             },
             "require": {
@@ -4918,7 +4918,7 @@
                 "symfony/validator": "~7.2.0",
                 "twig/intl-extra": "^3.10.0",
                 "twig/string-extra": "^3.10.0",
-                "twig/twig": "^3.14.0"
+                "twig/twig": "^3.18.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.5.38",
@@ -4953,7 +4953,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-01-28T01:41:43+00:00"
+            "time": "2025-01-29T01:41:31+00:00"
         },
         {
             "name": "squirrelphp/twig-php-syntax",
