@@ -4584,18 +4584,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/conflicts.git",
-                "reference": "aabf1ca864add0cfd907e59a75a006445af43601"
+                "reference": "fe57bd14586faee1da891684ec24d102bb2b1efb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/conflicts/zipball/aabf1ca864add0cfd907e59a75a006445af43601",
-                "reference": "aabf1ca864add0cfd907e59a75a006445af43601",
+                "url": "https://api.github.com/repos/shopware/conflicts/zipball/fe57bd14586faee1da891684ec24d102bb2b1efb",
+                "reference": "fe57bd14586faee1da891684ec24d102bb2b1efb",
                 "shasum": ""
             },
             "require": {
                 "shopware/core": ">=6.6.10.0"
             },
             "conflict": {
+                "opensearch-project/opensearch-php": ">2.3.1",
                 "phenx/php-font-lib": "<0.5.5",
                 "symfony/cache": "6.2.3 || 5.4.17",
                 "symfony/messenger": "6.3.5",
@@ -4615,7 +4616,7 @@
                 "issues": "https://github.com/shopware/conflicts/issues",
                 "source": "https://github.com/shopware/conflicts/tree/0.4.0"
             },
-            "time": "2025-01-27T14:52:02+00:00"
+            "time": "2025-02-07T08:35:34+00:00"
         },
         {
             "name": "shopware/core",
