@@ -23,9 +23,5 @@ shopware:
     compress: false
   cache:
     cache_compression: false
-    tagging:
-      each_config: false
-      each_snippet: false
-      each_theme_config: false
     invalidation:
       http_cache: [ ]
