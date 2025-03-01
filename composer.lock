@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "brick/math",
-            "version": "0.12.2",
+            "version": "0.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "901eddb1e45a8e0f689302e40af871c181ecbe40"
+                "reference": "866551da34e9a618e64a819ee1e01c20d8a588ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/901eddb1e45a8e0f689302e40af871c181ecbe40",
-                "reference": "901eddb1e45a8e0f689302e40af871c181ecbe40",
+                "url": "https://api.github.com/repos/brick/math/zipball/866551da34e9a618e64a819ee1e01c20d8a588ba",
+                "reference": "866551da34e9a618e64a819ee1e01c20d8a588ba",
                 "shasum": ""
             },
             "require": {
@@ -56,7 +56,7 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.12.2"
+                "source": "https://github.com/brick/math/tree/0.12.3"
             },
             "funding": [
                 {
@@ -64,7 +64,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-26T10:21:45+00:00"
+            "time": "2025-02-28T13:11:00+00:00"
         },
         {
             "name": "cocur/slugify",
@@ -5001,12 +5001,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "2b47b314c687efa9ae12be685b7bc36b2cbbfd9d"
+                "reference": "909c133a4ccd8570597306f572ed8bf3c8876f42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/2b47b314c687efa9ae12be685b7bc36b2cbbfd9d",
-                "reference": "2b47b314c687efa9ae12be685b7bc36b2cbbfd9d",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/909c133a4ccd8570597306f572ed8bf3c8876f42",
+                "reference": "909c133a4ccd8570597306f572ed8bf3c8876f42",
                 "shasum": ""
             },
             "require": {
@@ -5045,36 +5045,30 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-02-26T01:42:23+00:00"
+            "time": "2025-02-28T15:51:23+00:00"
         },
         {
             "name": "shopware/conflicts",
-            "version": "0.4.0",
+            "version": "0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/conflicts.git",
-                "reference": "d53d47a849ca2fe045f07e0c8854af3f894c3dfd"
+                "reference": "864fc8b7f39567ac52b1caf357daa83c8b9e2ef0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/conflicts/zipball/d53d47a849ca2fe045f07e0c8854af3f894c3dfd",
-                "reference": "d53d47a849ca2fe045f07e0c8854af3f894c3dfd",
+                "url": "https://api.github.com/repos/shopware/conflicts/zipball/864fc8b7f39567ac52b1caf357daa83c8b9e2ef0",
+                "reference": "864fc8b7f39567ac52b1caf357daa83c8b9e2ef0",
                 "shasum": ""
             },
             "require": {
-                "shopware/core": ">=6.6.10.0"
+                "shopware/core": ">=6.6.10.2"
             },
             "conflict": {
                 "opensearch-project/opensearch-php": ">2.3.1",
                 "phenx/php-font-lib": "<0.5.5",
                 "shopware/k8s-meta": "<=1.0.3",
-                "symfony/cache": "6.2.3 || 5.4.17",
-                "symfony/framework-bundle": "6.4.19 || 7.2.4",
-                "symfony/messenger": "6.3.5",
-                "symfony/notifier": "v5.3.8",
-                "symfony/phpunit-bridge": "6.4.8 || 7.0.8",
                 "symfony/symfony": "*",
-                "symfony/var-exporter": "v6.3.9 || v6.4.0",
                 "zircote/swagger-php": "4.8.7"
             },
             "type": "metapackage",
@@ -5085,9 +5079,9 @@
             "description": "Shopware 6 conflicting packages",
             "support": {
                 "issues": "https://github.com/shopware/conflicts/issues",
-                "source": "https://github.com/shopware/conflicts/tree/0.4.0"
+                "source": "https://github.com/shopware/conflicts/tree/0.5.0"
             },
-            "time": "2025-02-26T13:57:27+00:00"
+            "time": "2025-02-27T19:33:00+00:00"
         },
         {
             "name": "shopware/core",
@@ -5095,12 +5089,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "131fe44ede8ea94399d9eee1082d95daac7eff7a"
+                "reference": "a513b4a6cb04c7c045e3bfa9cb2adb7c0e77b35b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/131fe44ede8ea94399d9eee1082d95daac7eff7a",
-                "reference": "131fe44ede8ea94399d9eee1082d95daac7eff7a",
+                "url": "https://api.github.com/repos/shopware/core/zipball/a513b4a6cb04c7c045e3bfa9cb2adb7c0e77b35b",
+                "reference": "a513b4a6cb04c7c045e3bfa9cb2adb7c0e77b35b",
                 "shasum": ""
             },
             "require": {
@@ -5149,7 +5143,7 @@
                 "ramsey/uuid": "^4.7",
                 "setasign/fpdi": "^2.3.7",
                 "setasign/tfpdf": "^1.33",
-                "shopware/conflicts": ">=0.2.0",
+                "shopware/conflicts": "0.5.0",
                 "squirrelphp/twig-php-syntax": "^1.8.0",
                 "symfony/asset": "~7.2.0",
                 "symfony/cache": "~7.2.0",
@@ -5280,10 +5274,10 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://github.com/shopware/shopware/issues",
-                "source": "https://github.com/shopware/core/tree/trunk",
+                "source": "https://github.com/shopware/core/tree/tmp-7bfe67c9a43b4df7bf4669794b66bb52261ac352",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-02-25T15:39:31+00:00"
+            "time": "2025-02-28T11:07:31+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5358,12 +5352,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "f7f37f66e6f89ea29a05815603d915dca4856c58"
+                "reference": "0d24c5b5caf6b25241d519bb3872bfc6c7917d7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/f7f37f66e6f89ea29a05815603d915dca4856c58",
-                "reference": "f7f37f66e6f89ea29a05815603d915dca4856c58",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/0d24c5b5caf6b25241d519bb3872bfc6c7917d7b",
+                "reference": "0d24c5b5caf6b25241d519bb3872bfc6c7917d7b",
                 "shasum": ""
             },
             "require": {
@@ -5425,7 +5419,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-02-26T01:42:07+00:00"
+            "time": "2025-02-28T15:51:09+00:00"
         },
         {
             "name": "smalot/pdfparser",
@@ -6753,16 +6747,16 @@
         },
         {
             "name": "symfony/framework-bundle",
-            "version": "v7.2.3",
+            "version": "v7.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
-                "reference": "d37a43dd0b2079605fcab3056dac71934f06dc0f"
+                "reference": "6d6614378cd8128eed0a037ce6ac51a26c5aaed5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/d37a43dd0b2079605fcab3056dac71934f06dc0f",
-                "reference": "d37a43dd0b2079605fcab3056dac71934f06dc0f",
+                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/6d6614378cd8128eed0a037ce6ac51a26c5aaed5",
+                "reference": "6d6614378cd8128eed0a037ce6ac51a26c5aaed5",
                 "shasum": ""
             },
             "require": {
@@ -6883,7 +6877,7 @@
             "description": "Provides a tight integration between Symfony components and the Symfony full-stack framework",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/framework-bundle/tree/v7.2.3"
+                "source": "https://github.com/symfony/framework-bundle/tree/v7.2.4"
             },
             "funding": [
                 {
@@ -6899,7 +6893,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-01-29T07:13:55+00:00"
+            "time": "2025-02-26T08:19:39+00:00"
         },
         {
             "name": "symfony/http-client",
