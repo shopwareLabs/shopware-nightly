@@ -4256,16 +4256,16 @@
         },
         {
             "name": "ramsey/collection",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ramsey/collection.git",
-                "reference": "3c5990b8a5e0b79cd1cf11c2dc1229e58e93f109"
+                "reference": "344572933ad0181accbf4ba763e85a0306a8c5e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/collection/zipball/3c5990b8a5e0b79cd1cf11c2dc1229e58e93f109",
-                "reference": "3c5990b8a5e0b79cd1cf11c2dc1229e58e93f109",
+                "url": "https://api.github.com/repos/ramsey/collection/zipball/344572933ad0181accbf4ba763e85a0306a8c5e2",
+                "reference": "344572933ad0181accbf4ba763e85a0306a8c5e2",
                 "shasum": ""
             },
             "require": {
@@ -4326,9 +4326,9 @@
             ],
             "support": {
                 "issues": "https://github.com/ramsey/collection/issues",
-                "source": "https://github.com/ramsey/collection/tree/2.1.0"
+                "source": "https://github.com/ramsey/collection/tree/2.1.1"
             },
-            "time": "2025-03-02T04:48:29+00:00"
+            "time": "2025-03-22T05:38:12+00:00"
         },
         {
             "name": "ramsey/uuid",
@@ -4991,12 +4991,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "ac625523c16c7ea1e701b810b1cd3cb9262eadd7"
+                "reference": "a9e322288824f0a9ad41ce441b33bc006ebf7d7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/ac625523c16c7ea1e701b810b1cd3cb9262eadd7",
-                "reference": "ac625523c16c7ea1e701b810b1cd3cb9262eadd7",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/a9e322288824f0a9ad41ce441b33bc006ebf7d7e",
+                "reference": "a9e322288824f0a9ad41ce441b33bc006ebf7d7e",
                 "shasum": ""
             },
             "require": {
@@ -5035,7 +5035,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-03-21T12:50:00+00:00"
+            "time": "2025-03-22T01:42:06+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5341,12 +5341,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "065c77d44f5337a82b2c6d628d3f5ec95186014d"
+                "reference": "054eed46a9880a590f266ea4c796ec72d12e6489"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/065c77d44f5337a82b2c6d628d3f5ec95186014d",
-                "reference": "065c77d44f5337a82b2c6d628d3f5ec95186014d",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/054eed46a9880a590f266ea4c796ec72d12e6489",
+                "reference": "054eed46a9880a590f266ea4c796ec72d12e6489",
                 "shasum": ""
             },
             "require": {
@@ -5408,7 +5408,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-03-21T12:49:17+00:00"
+            "time": "2025-03-22T01:42:01+00:00"
         },
         {
             "name": "smalot/pdfparser",
