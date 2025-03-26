@@ -4991,12 +4991,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "c7749e428b467dee38318d233a88346b9ce703e1"
+                "reference": "861bec0749da179db39a0da480c9a5bab0da0038"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/c7749e428b467dee38318d233a88346b9ce703e1",
-                "reference": "c7749e428b467dee38318d233a88346b9ce703e1",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/861bec0749da179db39a0da480c9a5bab0da0038",
+                "reference": "861bec0749da179db39a0da480c9a5bab0da0038",
                 "shasum": ""
             },
             "require": {
@@ -5035,7 +5035,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-03-24T01:43:04+00:00"
+            "time": "2025-03-25T01:42:47+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5079,12 +5079,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "7ec51a888ad39d404a089e35d9bb3e0a4b730962"
+                "reference": "f93af19b8cd484e58e7eb6e04e3bcf85a5704558"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/7ec51a888ad39d404a089e35d9bb3e0a4b730962",
-                "reference": "7ec51a888ad39d404a089e35d9bb3e0a4b730962",
+                "url": "https://api.github.com/repos/shopware/core/zipball/f93af19b8cd484e58e7eb6e04e3bcf85a5704558",
+                "reference": "f93af19b8cd484e58e7eb6e04e3bcf85a5704558",
                 "shasum": ""
             },
             "require": {
@@ -5263,10 +5263,10 @@
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://github.com/shopware/shopware/issues",
-                "source": "https://github.com/shopware/core/tree/v6.7.0.0-rc1",
+                "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-03-20T17:34:53+00:00"
+            "time": "2025-03-24T14:05:50+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5341,12 +5341,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "ff31f51094c4df6b122922fa3f9858b34e6ec682"
+                "reference": "684f630a73aed9ab1b1a35cc2b11eca57198d70f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/ff31f51094c4df6b122922fa3f9858b34e6ec682",
-                "reference": "ff31f51094c4df6b122922fa3f9858b34e6ec682",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/684f630a73aed9ab1b1a35cc2b11eca57198d70f",
+                "reference": "684f630a73aed9ab1b1a35cc2b11eca57198d70f",
                 "shasum": ""
             },
             "require": {
@@ -5408,7 +5408,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-03-24T01:42:35+00:00"
+            "time": "2025-03-25T01:42:16+00:00"
         },
         {
             "name": "smalot/pdfparser",
