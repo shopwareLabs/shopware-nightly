@@ -4991,12 +4991,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "2dbbdfc594fdd90ecbc86d30d5b8ce98ed30f69a"
+                "reference": "895ef446cebb49b8df701e8571b6a3dc310f3535"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/2dbbdfc594fdd90ecbc86d30d5b8ce98ed30f69a",
-                "reference": "2dbbdfc594fdd90ecbc86d30d5b8ce98ed30f69a",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/895ef446cebb49b8df701e8571b6a3dc310f3535",
+                "reference": "895ef446cebb49b8df701e8571b6a3dc310f3535",
                 "shasum": ""
             },
             "require": {
@@ -5035,7 +5035,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-03-29T01:42:24+00:00"
+            "time": "2025-03-30T01:42:57+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5341,12 +5341,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "5cbf0b21f3a3b8538e304d13952f18b79b09b940"
+                "reference": "d8d247be8148d4a9f72b4b1fe18364e594062f35"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/5cbf0b21f3a3b8538e304d13952f18b79b09b940",
-                "reference": "5cbf0b21f3a3b8538e304d13952f18b79b09b940",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/d8d247be8148d4a9f72b4b1fe18364e594062f35",
+                "reference": "d8d247be8148d4a9f72b4b1fe18364e594062f35",
                 "shasum": ""
             },
             "require": {
@@ -5408,7 +5408,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-03-29T01:41:50+00:00"
+            "time": "2025-03-30T01:42:12+00:00"
         },
         {
             "name": "smalot/pdfparser",
@@ -9985,16 +9985,16 @@
         },
         {
             "name": "tecnickcom/tcpdf",
-            "version": "6.8.2",
+            "version": "6.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "f7a781073e1645062f163e058139e2f89355d420"
+                "reference": "f67b761b61f2370a9000d98c3b9111284544f722"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/f7a781073e1645062f163e058139e2f89355d420",
-                "reference": "f7a781073e1645062f163e058139e2f89355d420",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/f67b761b61f2370a9000d98c3b9111284544f722",
+                "reference": "f67b761b61f2370a9000d98c3b9111284544f722",
                 "shasum": ""
             },
             "require": {
@@ -10007,8 +10007,6 @@
                     "config",
                     "include",
                     "tcpdf.php",
-                    "tcpdf_parser.php",
-                    "tcpdf_import.php",
                     "tcpdf_barcodes_1d.php",
                     "tcpdf_barcodes_2d.php",
                     "include/tcpdf_colors.php",
@@ -10046,7 +10044,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tecnickcom/TCPDF/issues",
-                "source": "https://github.com/tecnickcom/TCPDF/tree/6.8.2"
+                "source": "https://github.com/tecnickcom/TCPDF/tree/6.9.0"
             },
             "funding": [
                 {
@@ -10054,7 +10052,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-01-26T14:03:12+00:00"
+            "time": "2025-03-30T16:56:09+00:00"
         },
         {
             "name": "twig/intl-extra",
