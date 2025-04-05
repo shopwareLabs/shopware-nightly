@@ -291,16 +291,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.8.7",
+            "version": "2.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "fc06c099955929ac67270d169e8b5fb83ad53807"
+                "reference": "85ff84d6c5260ba21740a7c5c9a111890805d6e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/fc06c099955929ac67270d169e8b5fb83ad53807",
-                "reference": "fc06c099955929ac67270d169e8b5fb83ad53807",
+                "url": "https://api.github.com/repos/composer/composer/zipball/85ff84d6c5260ba21740a7c5c9a111890805d6e7",
+                "reference": "85ff84d6c5260ba21740a7c5c9a111890805d6e7",
                 "shasum": ""
             },
             "require": {
@@ -385,7 +385,7 @@
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
                 "security": "https://github.com/composer/composer/security/policy",
-                "source": "https://github.com/composer/composer/tree/2.8.7"
+                "source": "https://github.com/composer/composer/tree/2.8.8"
             },
             "funding": [
                 {
@@ -401,7 +401,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-04-03T14:26:28+00:00"
+            "time": "2025-04-04T14:56:46+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -2444,16 +2444,16 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "6.4.0",
+            "version": "6.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jsonrainbow/json-schema.git",
-                "reference": "16b274cb469bc8165c59b76c283724a035d27f4c"
+                "reference": "35d262c94959571e8736db1e5c9bc36ab94ae900"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/16b274cb469bc8165c59b76c283724a035d27f4c",
-                "reference": "16b274cb469bc8165c59b76c283724a035d27f4c",
+                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/35d262c94959571e8736db1e5c9bc36ab94ae900",
+                "reference": "35d262c94959571e8736db1e5c9bc36ab94ae900",
                 "shasum": ""
             },
             "require": {
@@ -2513,9 +2513,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jsonrainbow/json-schema/issues",
-                "source": "https://github.com/jsonrainbow/json-schema/tree/6.4.0"
+                "source": "https://github.com/jsonrainbow/json-schema/tree/6.4.1"
             },
-            "time": "2025-04-01T18:50:59+00:00"
+            "time": "2025-04-04T13:08:07+00:00"
         },
         {
             "name": "laminas/laminas-code",
@@ -5074,12 +5074,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "894a60171cdf0e12fd293311807adb0296c4ba43"
+                "reference": "4dd4e8ff2e2f184ea0551b7ef4ef4ec66e61f034"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/894a60171cdf0e12fd293311807adb0296c4ba43",
-                "reference": "894a60171cdf0e12fd293311807adb0296c4ba43",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/4dd4e8ff2e2f184ea0551b7ef4ef4ec66e61f034",
+                "reference": "4dd4e8ff2e2f184ea0551b7ef4ef4ec66e61f034",
                 "shasum": ""
             },
             "require": {
@@ -5118,7 +5118,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-04-03T01:42:58+00:00"
+            "time": "2025-04-04T01:42:35+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5162,12 +5162,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "219aa39a9a008e0e71eef2a463fd9c579253efe6"
+                "reference": "b2451ddb10dcda44def9a966291a857eb91dd831"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/219aa39a9a008e0e71eef2a463fd9c579253efe6",
-                "reference": "219aa39a9a008e0e71eef2a463fd9c579253efe6",
+                "url": "https://api.github.com/repos/shopware/core/zipball/b2451ddb10dcda44def9a966291a857eb91dd831",
+                "reference": "b2451ddb10dcda44def9a966291a857eb91dd831",
                 "shasum": ""
             },
             "require": {
@@ -5349,7 +5349,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-04-02T15:43:01+00:00"
+            "time": "2025-04-03T14:03:03+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5424,12 +5424,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "d384db2a41d607d2ef76766386c227ed3becf09a"
+                "reference": "3f8af03176bc80838a177591abe68128263ac381"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/d384db2a41d607d2ef76766386c227ed3becf09a",
-                "reference": "d384db2a41d607d2ef76766386c227ed3becf09a",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/3f8af03176bc80838a177591abe68128263ac381",
+                "reference": "3f8af03176bc80838a177591abe68128263ac381",
                 "shasum": ""
             },
             "require": {
@@ -5491,7 +5491,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-04-03T01:42:35+00:00"
+            "time": "2025-04-04T01:42:13+00:00"
         },
         {
             "name": "smalot/pdfparser",
