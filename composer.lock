@@ -2346,16 +2346,16 @@
         },
         {
             "name": "jms/serializer",
-            "version": "3.32.3",
+            "version": "3.32.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schmittjoh/serializer.git",
-                "reference": "033c9beab9eb708509a3d400e9f0ffeb2d440e71"
+                "reference": "f5c6227b2664d1e75fda65f1e6c5686a0c034b31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/033c9beab9eb708509a3d400e9f0ffeb2d440e71",
-                "reference": "033c9beab9eb708509a3d400e9f0ffeb2d440e71",
+                "url": "https://api.github.com/repos/schmittjoh/serializer/zipball/f5c6227b2664d1e75fda65f1e6c5686a0c034b31",
+                "reference": "f5c6227b2664d1e75fda65f1e6c5686a0c034b31",
                 "shasum": ""
             },
             "require": {
@@ -2432,15 +2432,19 @@
             ],
             "support": {
                 "issues": "https://github.com/schmittjoh/serializer/issues",
-                "source": "https://github.com/schmittjoh/serializer/tree/3.32.3"
+                "source": "https://github.com/schmittjoh/serializer/tree/3.32.4"
             },
             "funding": [
                 {
                     "url": "https://github.com/goetas",
                     "type": "github"
+                },
+                {
+                    "url": "https://github.com/scyzoryck",
+                    "type": "github"
                 }
             ],
-            "time": "2025-02-11T23:16:25+00:00"
+            "time": "2025-04-06T18:42:47+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -5074,12 +5078,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "cc4314d93718160a7aa07b5aec1bc90f2683f250"
+                "reference": "79569c0f60e894bf6ac2509ffb6959fd161e17cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/cc4314d93718160a7aa07b5aec1bc90f2683f250",
-                "reference": "cc4314d93718160a7aa07b5aec1bc90f2683f250",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/79569c0f60e894bf6ac2509ffb6959fd161e17cb",
+                "reference": "79569c0f60e894bf6ac2509ffb6959fd161e17cb",
                 "shasum": ""
             },
             "require": {
@@ -5118,7 +5122,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-04-05T01:42:15+00:00"
+            "time": "2025-04-06T01:42:28+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5424,12 +5428,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "174f4802685ad625e8091d35806de9df480098c0"
+                "reference": "1fa1650e25d472d272bcc34cadb550e6824a58a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/174f4802685ad625e8091d35806de9df480098c0",
-                "reference": "174f4802685ad625e8091d35806de9df480098c0",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/1fa1650e25d472d272bcc34cadb550e6824a58a1",
+                "reference": "1fa1650e25d472d272bcc34cadb550e6824a58a1",
                 "shasum": ""
             },
             "require": {
@@ -5491,7 +5495,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-04-05T01:42:08+00:00"
+            "time": "2025-04-06T01:41:58+00:00"
         },
         {
             "name": "smalot/pdfparser",
