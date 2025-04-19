@@ -2211,16 +2211,16 @@
         },
         {
             "name": "horstoeko/zugferd",
-            "version": "v1.0.112",
+            "version": "v1.0.113",
             "source": {
                 "type": "git",
                 "url": "https://github.com/horstoeko/zugferd.git",
-                "reference": "74e6f51aa4ec893ce88f37ba07206a1d39034393"
+                "reference": "456bbfbb086e48dd28bef8b42cefbf1be6aa8af4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/horstoeko/zugferd/zipball/74e6f51aa4ec893ce88f37ba07206a1d39034393",
-                "reference": "74e6f51aa4ec893ce88f37ba07206a1d39034393",
+                "url": "https://api.github.com/repos/horstoeko/zugferd/zipball/456bbfbb086e48dd28bef8b42cefbf1be6aa8af4",
+                "reference": "456bbfbb086e48dd28bef8b42cefbf1be6aa8af4",
                 "shasum": ""
             },
             "require": {
@@ -2279,9 +2279,9 @@
             ],
             "support": {
                 "issues": "https://github.com/horstoeko/zugferd/issues",
-                "source": "https://github.com/horstoeko/zugferd/tree/v1.0.112"
+                "source": "https://github.com/horstoeko/zugferd/tree/v1.0.113"
             },
-            "time": "2025-03-30T08:55:45+00:00"
+            "time": "2025-04-18T12:32:02+00:00"
         },
         {
             "name": "jms/metadata",
@@ -5081,12 +5081,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "35d8eb604fe32096c7db71ce2ee7a23b8aef6f17"
+                "reference": "3ac8cb84d89e8a53fc24b619209a84341c6757c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/35d8eb604fe32096c7db71ce2ee7a23b8aef6f17",
-                "reference": "35d8eb604fe32096c7db71ce2ee7a23b8aef6f17",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/3ac8cb84d89e8a53fc24b619209a84341c6757c3",
+                "reference": "3ac8cb84d89e8a53fc24b619209a84341c6757c3",
                 "shasum": ""
             },
             "require": {
@@ -5125,7 +5125,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-04-17T01:42:57+00:00"
+            "time": "2025-04-18T01:43:15+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5169,12 +5169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "033948c4dcba8a06dd40cdae89a3ea66a196ab68"
+                "reference": "e02bd299d01406e55f675b126b9b40f3b2a62e81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/033948c4dcba8a06dd40cdae89a3ea66a196ab68",
-                "reference": "033948c4dcba8a06dd40cdae89a3ea66a196ab68",
+                "url": "https://api.github.com/repos/shopware/core/zipball/e02bd299d01406e55f675b126b9b40f3b2a62e81",
+                "reference": "e02bd299d01406e55f675b126b9b40f3b2a62e81",
                 "shasum": ""
             },
             "require": {
@@ -5356,7 +5356,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-04-16T12:27:17+00:00"
+            "time": "2025-04-17T07:59:53+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5431,12 +5431,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "fc94b5f415107c596f77431d69db9a2cc3e7e859"
+                "reference": "f8e7518ea5ec518107308a4c15951172a36d1ba9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/fc94b5f415107c596f77431d69db9a2cc3e7e859",
-                "reference": "fc94b5f415107c596f77431d69db9a2cc3e7e859",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/f8e7518ea5ec518107308a4c15951172a36d1ba9",
+                "reference": "f8e7518ea5ec518107308a4c15951172a36d1ba9",
                 "shasum": ""
             },
             "require": {
@@ -5498,7 +5498,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-04-17T01:42:43+00:00"
+            "time": "2025-04-18T01:42:39+00:00"
         },
         {
             "name": "smalot/pdfparser",
@@ -10075,16 +10075,16 @@
         },
         {
             "name": "tecnickcom/tcpdf",
-            "version": "6.9.1",
+            "version": "6.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "ed27e28a4c478f7f4015b5e7e7b1912af9e85f2b"
+                "reference": "ea258d4d16e02c799beb58bb75fe192dd26c49d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/ed27e28a4c478f7f4015b5e7e7b1912af9e85f2b",
-                "reference": "ed27e28a4c478f7f4015b5e7e7b1912af9e85f2b",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/ea258d4d16e02c799beb58bb75fe192dd26c49d1",
+                "reference": "ea258d4d16e02c799beb58bb75fe192dd26c49d1",
                 "shasum": ""
             },
             "require": {
@@ -10134,7 +10134,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tecnickcom/TCPDF/issues",
-                "source": "https://github.com/tecnickcom/TCPDF/tree/6.9.1"
+                "source": "https://github.com/tecnickcom/TCPDF/tree/6.9.2"
             },
             "funding": [
                 {
@@ -10142,7 +10142,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-04-03T06:38:07+00:00"
+            "time": "2025-04-18T16:46:11+00:00"
         },
         {
             "name": "twig/intl-extra",
