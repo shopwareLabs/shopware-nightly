@@ -11,6 +11,10 @@ framework:
     default_redis_provider: redis://cache?persistent=1
 
 shopware:
+  admin_worker:
+    enable_admin_worker: false
+    enable_notification_worker: false
+    enable_queue_stats_worker: false
   auto_update:
     enabled: false
   feature_toggle:
