@@ -20,7 +20,7 @@ proxy:
     healthcheck:
         interval: 1
         timeout: 5
-        path: /
+        path: /admin
     response_timeout: 30
     ssl: true
 app:
