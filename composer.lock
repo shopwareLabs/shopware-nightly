@@ -3671,16 +3671,16 @@
         },
         {
             "name": "pentatrion/vite-bundle",
-            "version": "v7.1.0",
+            "version": "v8.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/lhapaipai/vite-bundle.git",
-                "reference": "a33e8f133c5d1ecb82da52e72b4b1a7db795f765"
+                "reference": "42870f068c01c8abec5ee7a5668da710d76e4b72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lhapaipai/vite-bundle/zipball/a33e8f133c5d1ecb82da52e72b4b1a7db795f765",
-                "reference": "a33e8f133c5d1ecb82da52e72b4b1a7db795f765",
+                "url": "https://api.github.com/repos/lhapaipai/vite-bundle/zipball/42870f068c01c8abec5ee7a5668da710d76e4b72",
+                "reference": "42870f068c01c8abec5ee7a5668da710d76e4b72",
                 "shasum": ""
             },
             "require": {
@@ -3726,9 +3726,9 @@
             ],
             "support": {
                 "issues": "https://github.com/lhapaipai/vite-bundle/issues",
-                "source": "https://github.com/lhapaipai/vite-bundle/tree/v7.1.0"
+                "source": "https://github.com/lhapaipai/vite-bundle/tree/v8.1.1"
             },
-            "time": "2024-11-27T18:32:38+00:00"
+            "time": "2025-06-12T19:09:21+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
@@ -5068,17 +5068,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "cb8fccd3b57a835ad19ae28141c6569f343c418f"
+                "reference": "ab5453251ec515e39b120c759047a4a21d139e72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/cb8fccd3b57a835ad19ae28141c6569f343c418f",
-                "reference": "cb8fccd3b57a835ad19ae28141c6569f343c418f",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/ab5453251ec515e39b120c759047a4a21d139e72",
+                "reference": "ab5453251ec515e39b120c759047a4a21d139e72",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^4.2",
-                "pentatrion/vite-bundle": "^7.0",
+                "pentatrion/vite-bundle": "^8.1",
                 "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
                 "shopware/core": "dev-trunk",
                 "symfony/framework-bundle": "~7.2.0",
@@ -5112,7 +5112,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-06-17T01:44:12+00:00"
+            "time": "2025-06-18T01:43:05+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5157,12 +5157,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "cbc9f520167ffe8d16932cd8ba118b9b0a659509"
+                "reference": "c93b5862d24be7f7deab3cfdbbb0e5ff444bc798"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/cbc9f520167ffe8d16932cd8ba118b9b0a659509",
-                "reference": "cbc9f520167ffe8d16932cd8ba118b9b0a659509",
+                "url": "https://api.github.com/repos/shopware/core/zipball/c93b5862d24be7f7deab3cfdbbb0e5ff444bc798",
+                "reference": "c93b5862d24be7f7deab3cfdbbb0e5ff444bc798",
                 "shasum": ""
             },
             "require": {
@@ -5345,7 +5345,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-06-16T12:44:12+00:00"
+            "time": "2025-06-17T11:23:32+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5420,12 +5420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "080017ff0d1c7fda71d525260b73ec5025e1561d"
+                "reference": "25444b806246c88add859c5475eefabf5b5b29a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/080017ff0d1c7fda71d525260b73ec5025e1561d",
-                "reference": "080017ff0d1c7fda71d525260b73ec5025e1561d",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/25444b806246c88add859c5475eefabf5b5b29a7",
+                "reference": "25444b806246c88add859c5475eefabf5b5b29a7",
                 "shasum": ""
             },
             "require": {
@@ -5488,7 +5488,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-06-17T01:43:23+00:00"
+            "time": "2025-06-18T01:42:33+00:00"
         },
         {
             "name": "smalot/pdfparser",
