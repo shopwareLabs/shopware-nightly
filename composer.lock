@@ -5067,12 +5067,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "0f8813845b2453e81ae56a085e8fdbc209d70b2d"
+                "reference": "24bb5e9b3d630b36417e85abab8b26c9a197d9b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/0f8813845b2453e81ae56a085e8fdbc209d70b2d",
-                "reference": "0f8813845b2453e81ae56a085e8fdbc209d70b2d",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/24bb5e9b3d630b36417e85abab8b26c9a197d9b8",
+                "reference": "24bb5e9b3d630b36417e85abab8b26c9a197d9b8",
                 "shasum": ""
             },
             "require": {
@@ -5111,7 +5111,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-07-03T01:43:53+00:00"
+            "time": "2025-07-04T15:17:18+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5156,12 +5156,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "072db99569ac3f56820b69c8926def76ee9dc1cb"
+                "reference": "7f27668fcd974d344064659e3c94cd75af4163a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/072db99569ac3f56820b69c8926def76ee9dc1cb",
-                "reference": "072db99569ac3f56820b69c8926def76ee9dc1cb",
+                "url": "https://api.github.com/repos/shopware/core/zipball/7f27668fcd974d344064659e3c94cd75af4163a8",
+                "reference": "7f27668fcd974d344064659e3c94cd75af4163a8",
                 "shasum": ""
             },
             "require": {
@@ -5264,7 +5264,6 @@
                 "symfony/validator": "~7.2.0",
                 "symfony/var-exporter": "~7.2.0",
                 "symfony/yaml": "~7.2.0",
-                "tecnickcom/tcpdf": "^6.7.7",
                 "twig/intl-extra": "^3.10.0",
                 "twig/string-extra": "^3.10.0",
                 "twig/twig": "^3.19.0",
@@ -5344,7 +5343,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-07-02T14:13:48+00:00"
+            "time": "2025-07-04T13:00:08+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5419,12 +5418,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "10a88d5cf498b8fe685eb975f7b4dc4a3917b894"
+                "reference": "b6981e61179b6a4e80c3865710ee2b7629cc5359"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/10a88d5cf498b8fe685eb975f7b4dc4a3917b894",
-                "reference": "10a88d5cf498b8fe685eb975f7b4dc4a3917b894",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/b6981e61179b6a4e80c3865710ee2b7629cc5359",
+                "reference": "b6981e61179b6a4e80c3865710ee2b7629cc5359",
                 "shasum": ""
             },
             "require": {
@@ -5487,7 +5486,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-07-03T01:42:57+00:00"
+            "time": "2025-07-04T15:16:40+00:00"
         },
         {
             "name": "smalot/pdfparser",
@@ -10066,77 +10065,6 @@
                 }
             ],
             "time": "2025-06-03T06:57:06+00:00"
-        },
-        {
-            "name": "tecnickcom/tcpdf",
-            "version": "6.10.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "ca5b6de294512145db96bcbc94e61696599c391d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/ca5b6de294512145db96bcbc94e61696599c391d",
-                "reference": "ca5b6de294512145db96bcbc94e61696599c391d",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "php": ">=7.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "config",
-                    "include",
-                    "tcpdf.php",
-                    "tcpdf_barcodes_1d.php",
-                    "tcpdf_barcodes_2d.php",
-                    "include/tcpdf_colors.php",
-                    "include/tcpdf_filters.php",
-                    "include/tcpdf_font_data.php",
-                    "include/tcpdf_fonts.php",
-                    "include/tcpdf_images.php",
-                    "include/tcpdf_static.php",
-                    "include/barcodes/datamatrix.php",
-                    "include/barcodes/pdf417.php",
-                    "include/barcodes/qrcode.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Nicola Asuni",
-                    "email": "info@tecnick.com",
-                    "role": "lead"
-                }
-            ],
-            "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
-            "homepage": "http://www.tcpdf.org/",
-            "keywords": [
-                "PDFD32000-2008",
-                "TCPDF",
-                "barcodes",
-                "datamatrix",
-                "pdf",
-                "pdf417",
-                "qrcode"
-            ],
-            "support": {
-                "issues": "https://github.com/tecnickcom/TCPDF/issues",
-                "source": "https://github.com/tecnickcom/TCPDF/tree/6.10.0"
-            },
-            "funding": [
-                {
-                    "url": "https://www.paypal.com/donate/?hosted_button_id=NZUEC5XS8MFBJ",
-                    "type": "custom"
-                }
-            ],
-            "time": "2025-05-27T18:02:28+00:00"
         },
         {
             "name": "twig/intl-extra",
