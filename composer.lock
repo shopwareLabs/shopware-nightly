@@ -892,21 +892,21 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "4.3.0",
+            "version": "4.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "5fe09532be619202d59c70956c6fb20e97933ee3"
+                "reference": "acb68b388b2577bb211bb26dc22d20a8ad93d97d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/5fe09532be619202d59c70956c6fb20e97933ee3",
-                "reference": "5fe09532be619202d59c70956c6fb20e97933ee3",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/acb68b388b2577bb211bb26dc22d20a8ad93d97d",
+                "reference": "acb68b388b2577bb211bb26dc22d20a8ad93d97d",
                 "shasum": ""
             },
             "require": {
-                "doctrine/deprecations": "^1.1.5",
-                "php": "^8.2",
+                "doctrine/deprecations": "^0.5.3|^1",
+                "php": "^8.1",
                 "psr/cache": "^1|^2|^3",
                 "psr/log": "^1|^2|^3"
             },
@@ -917,7 +917,7 @@
                 "phpstan/phpstan": "2.1.17",
                 "phpstan/phpstan-phpunit": "2.0.6",
                 "phpstan/phpstan-strict-rules": "^2",
-                "phpunit/phpunit": "11.5.23",
+                "phpunit/phpunit": "10.5.46",
                 "slevomat/coding-standard": "8.16.2",
                 "squizlabs/php_codesniffer": "3.13.1",
                 "symfony/cache": "^6.3.8|^7.0",
@@ -978,7 +978,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/4.3.0"
+                "source": "https://github.com/doctrine/dbal/tree/4.2.5"
             },
             "funding": [
                 {
@@ -994,7 +994,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-06-16T19:31:04+00:00"
+            "time": "2025-06-26T22:51:46+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -4573,16 +4573,16 @@
         },
         {
             "name": "sabberworm/php-css-parser",
-            "version": "v8.8.0",
+            "version": "v8.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/MyIntervals/PHP-CSS-Parser.git",
-                "reference": "3de493bdddfd1f051249af725c7e0d2c38fed740"
+                "reference": "d8e916507b88e389e26d4ab03c904a082aa66bb9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/3de493bdddfd1f051249af725c7e0d2c38fed740",
-                "reference": "3de493bdddfd1f051249af725c7e0d2c38fed740",
+                "url": "https://api.github.com/repos/MyIntervals/PHP-CSS-Parser/zipball/d8e916507b88e389e26d4ab03c904a082aa66bb9",
+                "reference": "d8e916507b88e389e26d4ab03c904a082aa66bb9",
                 "shasum": ""
             },
             "require": {
@@ -4590,7 +4590,8 @@
                 "php": "^5.6.20 || ^7.0.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "5.7.27 || 6.5.14 || 7.5.20 || 8.5.41"
+                "phpunit/phpunit": "5.7.27 || 6.5.14 || 7.5.20 || 8.5.41",
+                "rawr/cross-data-providers": "^2.0.0"
             },
             "suggest": {
                 "ext-mbstring": "for parsing UTF-8 CSS"
@@ -4632,9 +4633,9 @@
             ],
             "support": {
                 "issues": "https://github.com/MyIntervals/PHP-CSS-Parser/issues",
-                "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.8.0"
+                "source": "https://github.com/MyIntervals/PHP-CSS-Parser/tree/v8.9.0"
             },
-            "time": "2025-03-23T17:59:05+00:00"
+            "time": "2025-07-11T13:20:48+00:00"
         },
         {
             "name": "scssphp/scssphp",
@@ -5067,12 +5068,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "612f8092747249de533349b2b1056e0ea2e4bced"
+                "reference": "66caac86950b11020d016a3f0a1f12874dca35b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/612f8092747249de533349b2b1056e0ea2e4bced",
-                "reference": "612f8092747249de533349b2b1056e0ea2e4bced",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/66caac86950b11020d016a3f0a1f12874dca35b7",
+                "reference": "66caac86950b11020d016a3f0a1f12874dca35b7",
                 "shasum": ""
             },
             "require": {
@@ -5111,7 +5112,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-07-10T01:43:52+00:00"
+            "time": "2025-07-11T06:43:00+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5119,18 +5120,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/conflicts.git",
-                "reference": "67cb84082c69acf1666c138965aef2058de22901"
+                "reference": "4b02043ae63c099753e8297a6922838ba5d0b846"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/conflicts/zipball/67cb84082c69acf1666c138965aef2058de22901",
-                "reference": "67cb84082c69acf1666c138965aef2058de22901",
+                "url": "https://api.github.com/repos/shopware/conflicts/zipball/4b02043ae63c099753e8297a6922838ba5d0b846",
+                "reference": "4b02043ae63c099753e8297a6922838ba5d0b846",
                 "shasum": ""
             },
             "require": {
                 "shopware/core": ">=6.6.10.2"
             },
             "conflict": {
+                "doctrine/dbal": ">=4.3.0",
                 "opensearch-project/opensearch-php": ">2.3.1",
                 "phenx/php-font-lib": "<0.5.5",
                 "shopware/k8s-meta": "<=1.0.3",
@@ -5148,7 +5150,7 @@
                 "issues": "https://github.com/shopware/conflicts/issues",
                 "source": "https://github.com/shopware/conflicts/tree/0.5.0"
             },
-            "time": "2025-05-07T14:05:09+00:00"
+            "time": "2025-07-11T04:42:42+00:00"
         },
         {
             "name": "shopware/core",
@@ -5156,12 +5158,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "a1d2c63a097c7cdb4a2fcbbd69c41ca3c704f61a"
+                "reference": "e04a0a3b4884e0f923f3e751cf68747a2ddaba06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/a1d2c63a097c7cdb4a2fcbbd69c41ca3c704f61a",
-                "reference": "a1d2c63a097c7cdb4a2fcbbd69c41ca3c704f61a",
+                "url": "https://api.github.com/repos/shopware/core/zipball/e04a0a3b4884e0f923f3e751cf68747a2ddaba06",
+                "reference": "e04a0a3b4884e0f923f3e751cf68747a2ddaba06",
                 "shasum": ""
             },
             "require": {
@@ -5343,7 +5345,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-07-09T16:13:04+00:00"
+            "time": "2025-07-10T08:03:33+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5418,12 +5420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "3d3a542ec7720ea813fa5f3c4e13d70ce0b5a5d1"
+                "reference": "550d0436491b6de7cf6da648bd9b0252495ebc24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/3d3a542ec7720ea813fa5f3c4e13d70ce0b5a5d1",
-                "reference": "3d3a542ec7720ea813fa5f3c4e13d70ce0b5a5d1",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/550d0436491b6de7cf6da648bd9b0252495ebc24",
+                "reference": "550d0436491b6de7cf6da648bd9b0252495ebc24",
                 "shasum": ""
             },
             "require": {
@@ -5486,7 +5488,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-07-10T01:43:24+00:00"
+            "time": "2025-07-11T06:42:33+00:00"
         },
         {
             "name": "smalot/pdfparser",
