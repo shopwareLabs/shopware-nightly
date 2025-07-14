@@ -3732,16 +3732,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "9b30d6fd026b2c132b3985ce6b23bec09ab3aa68"
+                "reference": "b9e61a61e39e02dd90944e9115241c7f7e76bfd8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/9b30d6fd026b2c132b3985ce6b23bec09ab3aa68",
-                "reference": "9b30d6fd026b2c132b3985ce6b23bec09ab3aa68",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/b9e61a61e39e02dd90944e9115241c7f7e76bfd8",
+                "reference": "b9e61a61e39e02dd90944e9115241c7f7e76bfd8",
                 "shasum": ""
             },
             "require": {
@@ -3773,9 +3773,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.1.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.2.0"
             },
-            "time": "2025-02-19T13:28:12+00:00"
+            "time": "2025-07-13T07:04:09+00:00"
         },
         {
             "name": "psr/cache",
@@ -5068,12 +5068,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "d5958a19afe9bb1711bc78de40e14c70572f6c4f"
+                "reference": "03b7cf461777b5974d298c4bbb3eb2a048eb2dd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/d5958a19afe9bb1711bc78de40e14c70572f6c4f",
-                "reference": "d5958a19afe9bb1711bc78de40e14c70572f6c4f",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/03b7cf461777b5974d298c4bbb3eb2a048eb2dd5",
+                "reference": "03b7cf461777b5974d298c4bbb3eb2a048eb2dd5",
                 "shasum": ""
             },
             "require": {
@@ -5112,7 +5112,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-07-12T01:44:03+00:00"
+            "time": "2025-07-13T01:44:20+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5420,12 +5420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "1b8e4d6f69690537b1a414b3f46f1a39315515a7"
+                "reference": "242f1498b5caf5c5d3e3b4249c0ec2926a95db61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/1b8e4d6f69690537b1a414b3f46f1a39315515a7",
-                "reference": "1b8e4d6f69690537b1a414b3f46f1a39315515a7",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/242f1498b5caf5c5d3e3b4249c0ec2926a95db61",
+                "reference": "242f1498b5caf5c5d3e3b4249c0ec2926a95db61",
                 "shasum": ""
             },
             "require": {
@@ -5488,7 +5488,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-07-12T01:43:32+00:00"
+            "time": "2025-07-13T01:43:49+00:00"
         },
         {
             "name": "smalot/pdfparser",
