@@ -3431,25 +3431,26 @@
         },
         {
             "name": "meyfa/php-svg",
-            "version": "v0.14.7",
+            "version": "v0.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/meyfa/php-svg.git",
-                "reference": "f50d39e0c97042881e303f7d5d1d09aa88296def"
+                "reference": "a62c2b9842826e83ea51f9b9e6ed28d2bdb1033c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/meyfa/php-svg/zipball/f50d39e0c97042881e303f7d5d1d09aa88296def",
-                "reference": "f50d39e0c97042881e303f7d5d1d09aa88296def",
+                "url": "https://api.github.com/repos/meyfa/php-svg/zipball/a62c2b9842826e83ea51f9b9e6ed28d2bdb1033c",
+                "reference": "a62c2b9842826e83ea51f9b9e6ed28d2bdb1033c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3.0"
+                "php": ">=7.4.0"
             },
             "require-dev": {
                 "meyfa/phpunit-assert-gd": "^v3.0.0",
-                "phpmd/phpmd": "^2.13.0",
-                "phpunit/phpunit": "^9.5.26"
+                "phpmd/phpmd": "^2.15.0",
+                "phpunit/phpunit": "^9.6.16",
+                "rector/rector": "^1.0"
             },
             "suggest": {
                 "ext-gd": "Needed to rasterize images",
@@ -3478,15 +3479,9 @@
             ],
             "support": {
                 "issues": "https://github.com/meyfa/php-svg/issues",
-                "source": "https://github.com/meyfa/php-svg/tree/v0.14.7"
+                "source": "https://github.com/meyfa/php-svg/tree/v0.16.1"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/meyfa",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-12-09T23:20:59+00:00"
+            "time": "2025-03-10T22:28:37+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -5068,12 +5063,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "9784054f4f022ee76aad52d9fca23111907abb6a"
+                "reference": "a770a9a8919d009363315a4c09cda55c26743fc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/9784054f4f022ee76aad52d9fca23111907abb6a",
-                "reference": "9784054f4f022ee76aad52d9fca23111907abb6a",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/a770a9a8919d009363315a4c09cda55c26743fc1",
+                "reference": "a770a9a8919d009363315a4c09cda55c26743fc1",
                 "shasum": ""
             },
             "require": {
@@ -5112,24 +5107,24 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-07-14T01:44:52+00:00"
+            "time": "2025-07-15T01:44:56+00:00"
         },
         {
             "name": "shopware/conflicts",
-            "version": "0.5.0",
+            "version": "0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/conflicts.git",
-                "reference": "4b02043ae63c099753e8297a6922838ba5d0b846"
+                "reference": "50c7d4bf8c10f49329661f7fb2ff3e090bb23d51"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/conflicts/zipball/4b02043ae63c099753e8297a6922838ba5d0b846",
-                "reference": "4b02043ae63c099753e8297a6922838ba5d0b846",
+                "url": "https://api.github.com/repos/shopware/conflicts/zipball/50c7d4bf8c10f49329661f7fb2ff3e090bb23d51",
+                "reference": "50c7d4bf8c10f49329661f7fb2ff3e090bb23d51",
                 "shasum": ""
             },
             "require": {
-                "shopware/core": ">=6.6.10.2"
+                "shopware/core": ">=6.7.1.0"
             },
             "conflict": {
                 "doctrine/dbal": ">=4.3.0",
@@ -5137,7 +5132,6 @@
                 "phenx/php-font-lib": "<0.5.5",
                 "shopware/k8s-meta": "<=1.0.3",
                 "symfony/symfony": "*",
-                "twig/twig": ">=3.21",
                 "zircote/swagger-php": "4.8.7"
             },
             "type": "metapackage",
@@ -5148,9 +5142,9 @@
             "description": "Shopware 6 conflicting packages",
             "support": {
                 "issues": "https://github.com/shopware/conflicts/issues",
-                "source": "https://github.com/shopware/conflicts/tree/0.5.0"
+                "source": "https://github.com/shopware/conflicts/tree/0.5.1"
             },
-            "time": "2025-07-11T04:42:42+00:00"
+            "time": "2025-07-11T04:41:41+00:00"
         },
         {
             "name": "shopware/core",
@@ -5158,19 +5152,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "eb8e2187ae1f430fc8c7eec442aa3ee0bad9ba54"
+                "reference": "ae68e0b528eaa13211c523533585f4919b42850f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/eb8e2187ae1f430fc8c7eec442aa3ee0bad9ba54",
-                "reference": "eb8e2187ae1f430fc8c7eec442aa3ee0bad9ba54",
+                "url": "https://api.github.com/repos/shopware/core/zipball/ae68e0b528eaa13211c523533585f4919b42850f",
+                "reference": "ae68e0b528eaa13211c523533585f4919b42850f",
                 "shasum": ""
             },
             "require": {
                 "cocur/slugify": "^4.3.0",
                 "composer-runtime-api": "^2.1",
                 "composer/composer": "^2.8.5",
-                "composer/semver": "^3.2",
+                "composer/semver": "^3.4.0",
                 "doctrine/dbal": "^4.2",
                 "doctrine/inflector": "^2.0",
                 "dompdf/dompdf": "3.1.0",
@@ -5213,7 +5207,7 @@
                 "ramsey/uuid": "^4.7",
                 "setasign/fpdi": "^2.3.7",
                 "setasign/tfpdf": "^1.33",
-                "shopware/conflicts": "0.5.0",
+                "shopware/conflicts": "0.5.1",
                 "squirrelphp/twig-php-syntax": "^1.8.0",
                 "symfony/asset": "~7.2.0",
                 "symfony/cache": "~7.2.0",
@@ -5345,7 +5339,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-07-11T13:02:12+00:00"
+            "time": "2025-07-14T18:39:52+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5420,18 +5414,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "71b40db167ebad871675d362202c4146bb0b1b83"
+                "reference": "03d5647edc52fa87a14bdc5d01e5a49ff7093952"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/71b40db167ebad871675d362202c4146bb0b1b83",
-                "reference": "71b40db167ebad871675d362202c4146bb0b1b83",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/03d5647edc52fa87a14bdc5d01e5a49ff7093952",
+                "reference": "03d5647edc52fa87a14bdc5d01e5a49ff7093952",
                 "shasum": ""
             },
             "require": {
                 "cocur/slugify": "^4.3.0",
                 "doctrine/dbal": "^4.2",
-                "meyfa/php-svg": "^0.14.0",
+                "meyfa/php-svg": "^0.16.1",
                 "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
                 "scssphp/scssphp": "v1.12.0",
                 "shopware/core": "dev-trunk",
@@ -5488,7 +5482,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-07-14T01:43:59+00:00"
+            "time": "2025-07-15T01:44:15+00:00"
         },
         {
             "name": "smalot/pdfparser",
@@ -5543,21 +5537,21 @@
         },
         {
             "name": "squirrelphp/twig-php-syntax",
-            "version": "v1.11",
+            "version": "v1.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squirrelphp/twig-php-syntax.git",
-                "reference": "5283b9adcdf03ee9d16ef98772bcdcd227c45e9c"
+                "reference": "6cdd734a7e585b4035129d9f264c4c871644785a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squirrelphp/twig-php-syntax/zipball/5283b9adcdf03ee9d16ef98772bcdcd227c45e9c",
-                "reference": "5283b9adcdf03ee9d16ef98772bcdcd227c45e9c",
+                "url": "https://api.github.com/repos/squirrelphp/twig-php-syntax/zipball/6cdd734a7e585b4035129d9f264c4c871644785a",
+                "reference": "6cdd734a7e585b4035129d9f264c4c871644785a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2",
-                "twig/twig": "^3.19"
+                "php": ">=8.1",
+                "twig/twig": "^3.21"
             },
             "require-dev": {
                 "captainhook/captainhook-phar": "^5.0",
@@ -5597,9 +5591,9 @@
             ],
             "support": {
                 "issues": "https://github.com/squirrelphp/twig-php-syntax/issues",
-                "source": "https://github.com/squirrelphp/twig-php-syntax/tree/v1.11"
+                "source": "https://github.com/squirrelphp/twig-php-syntax/tree/v1.13"
             },
-            "time": "2025-05-02T14:30:05+00:00"
+            "time": "2025-05-03T06:37:30+00:00"
         },
         {
             "name": "symfony/asset",
@@ -10201,16 +10195,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v3.20.0",
+            "version": "v3.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "3468920399451a384bef53cf7996965f7cd40183"
+                "reference": "285123877d4dd97dd7c11842ac5fb7e86e60d81d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3468920399451a384bef53cf7996965f7cd40183",
-                "reference": "3468920399451a384bef53cf7996965f7cd40183",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/285123877d4dd97dd7c11842ac5fb7e86e60d81d",
+                "reference": "285123877d4dd97dd7c11842ac5fb7e86e60d81d",
                 "shasum": ""
             },
             "require": {
@@ -10264,7 +10258,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v3.20.0"
+                "source": "https://github.com/twigphp/Twig/tree/v3.21.1"
             },
             "funding": [
                 {
@@ -10276,7 +10270,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-02-13T08:34:43+00:00"
+            "time": "2025-05-03T07:21:55+00:00"
         },
         {
             "name": "webmozart/assert",
