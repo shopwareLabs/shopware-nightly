@@ -5113,12 +5113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "f586ce4f874aa7292830e5d6caf7adb108af5561"
+                "reference": "24d8a55c8197ee6aa6d2c31f919daa6daae3f2cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/f586ce4f874aa7292830e5d6caf7adb108af5561",
-                "reference": "f586ce4f874aa7292830e5d6caf7adb108af5561",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/24d8a55c8197ee6aa6d2c31f919daa6daae3f2cd",
+                "reference": "24d8a55c8197ee6aa6d2c31f919daa6daae3f2cd",
                 "shasum": ""
             },
             "require": {
@@ -5150,14 +5150,14 @@
             ],
             "description": "Administration frontend for the Shopware Core",
             "support": {
-                "chat": "https://slack.shopware.com",
+                "chat": "https://chat.shopware.com/",
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://github.com/shopware/shopware/issues",
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-11T01:44:38+00:00"
+            "time": "2025-08-12T01:43:24+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5201,12 +5201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "eb0c1ff7d20a91cca14c65431ac0040f9f1439a3"
+                "reference": "c07ca3153a2c9a4202cd2dee891bd34749723107"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/eb0c1ff7d20a91cca14c65431ac0040f9f1439a3",
-                "reference": "eb0c1ff7d20a91cca14c65431ac0040f9f1439a3",
+                "url": "https://api.github.com/repos/shopware/core/zipball/c07ca3153a2c9a4202cd2dee891bd34749723107",
+                "reference": "c07ca3153a2c9a4202cd2dee891bd34749723107",
                 "shasum": ""
             },
             "require": {
@@ -5383,14 +5383,14 @@
                 "shopware"
             ],
             "support": {
-                "chat": "https://slack.shopware.com",
+                "chat": "https://chat.shopware.com/",
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://github.com/shopware/shopware/issues",
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-08T12:23:33+00:00"
+            "time": "2025-08-11T16:24:08+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5465,12 +5465,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "760ed2224a432c5ba7dead4b173892182cfaee54"
+                "reference": "e814d1f5eb1010cecf9550a1062fa21607ce90c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/760ed2224a432c5ba7dead4b173892182cfaee54",
-                "reference": "760ed2224a432c5ba7dead4b173892182cfaee54",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/e814d1f5eb1010cecf9550a1062fa21607ce90c9",
+                "reference": "e814d1f5eb1010cecf9550a1062fa21607ce90c9",
                 "shasum": ""
             },
             "require": {
@@ -5527,14 +5527,14 @@
             ],
             "description": "Storefront for Shopware",
             "support": {
-                "chat": "https://slack.shopware.com",
+                "chat": "https://chat.shopware.com/",
                 "docs": "https://developer.shopware.com",
                 "forum": "https://forum.shopware.com",
                 "issues": "https://github.com/shopware/shopware/issues",
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-11T01:44:06+00:00"
+            "time": "2025-08-12T01:43:07+00:00"
         },
         {
             "name": "smalot/pdfparser",
