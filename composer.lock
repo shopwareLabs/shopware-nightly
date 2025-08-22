@@ -283,16 +283,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.8.10",
+            "version": "2.8.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "53834f587d7ab2527eb237459d7b94d1fb9d4c5a"
+                "reference": "00e1a3396eea67033775c4a49c772376f45acd73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/53834f587d7ab2527eb237459d7b94d1fb9d4c5a",
-                "reference": "53834f587d7ab2527eb237459d7b94d1fb9d4c5a",
+                "url": "https://api.github.com/repos/composer/composer/zipball/00e1a3396eea67033775c4a49c772376f45acd73",
+                "reference": "00e1a3396eea67033775c4a49c772376f45acd73",
                 "shasum": ""
             },
             "require": {
@@ -306,7 +306,7 @@
                 "justinrainbow/json-schema": "^6.3.1",
                 "php": "^7.2.5 || ^8.0",
                 "psr/log": "^1.0 || ^2.0 || ^3.0",
-                "react/promise": "^2.11 || ^3.2",
+                "react/promise": "^2.11 || ^3.3",
                 "seld/jsonlint": "^1.4",
                 "seld/phar-utils": "^1.2",
                 "seld/signal-handler": "^2.0",
@@ -377,7 +377,7 @@
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
                 "security": "https://github.com/composer/composer/security/policy",
-                "source": "https://github.com/composer/composer/tree/2.8.10"
+                "source": "https://github.com/composer/composer/tree/2.8.11"
             },
             "funding": [
                 {
@@ -387,13 +387,9 @@
                 {
                     "url": "https://github.com/composer",
                     "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
-                    "type": "tidelift"
                 }
             ],
-            "time": "2025-07-10T17:08:33+00:00"
+            "time": "2025-08-21T09:29:39+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -5101,12 +5097,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "709acab423e490b0c406b9b9ce93101258560cb0"
+                "reference": "97ebef28450864aeb01fc3f8b73fdc55b1083792"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/709acab423e490b0c406b9b9ce93101258560cb0",
-                "reference": "709acab423e490b0c406b9b9ce93101258560cb0",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/97ebef28450864aeb01fc3f8b73fdc55b1083792",
+                "reference": "97ebef28450864aeb01fc3f8b73fdc55b1083792",
                 "shasum": ""
             },
             "require": {
@@ -5145,7 +5141,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-20T01:43:17+00:00"
+            "time": "2025-08-21T01:43:20+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5189,12 +5185,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "ea644f7d7100d1817c50210c06f7c3b3049592bc"
+                "reference": "4debdbf56f5c3c8a1050f5d3578d9e4ff5d0df8a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/ea644f7d7100d1817c50210c06f7c3b3049592bc",
-                "reference": "ea644f7d7100d1817c50210c06f7c3b3049592bc",
+                "url": "https://api.github.com/repos/shopware/core/zipball/4debdbf56f5c3c8a1050f5d3578d9e4ff5d0df8a",
+                "reference": "4debdbf56f5c3c8a1050f5d3578d9e4ff5d0df8a",
                 "shasum": ""
             },
             "require": {
@@ -5378,7 +5374,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-19T13:29:12+00:00"
+            "time": "2025-08-20T14:56:54+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5453,12 +5449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "a9d8f9b5ad1fe8252f39346ce2c8f9bb76853814"
+                "reference": "6071e822b7b815c6c8a60d08adce7f43f9fffc08"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/a9d8f9b5ad1fe8252f39346ce2c8f9bb76853814",
-                "reference": "a9d8f9b5ad1fe8252f39346ce2c8f9bb76853814",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/6071e822b7b815c6c8a60d08adce7f43f9fffc08",
+                "reference": "6071e822b7b815c6c8a60d08adce7f43f9fffc08",
                 "shasum": ""
             },
             "require": {
@@ -5522,7 +5518,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-20T01:43:01+00:00"
+            "time": "2025-08-21T01:42:39+00:00"
         },
         {
             "name": "smalot/pdfparser",
