@@ -1757,22 +1757,22 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "7.9.3",
+            "version": "7.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "7b2f29fe81dc4da0ca0ea7d42107a0845946ea77"
+                "reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/7b2f29fe81dc4da0ca0ea7d42107a0845946ea77",
-                "reference": "7b2f29fe81dc4da0ca0ea7d42107a0845946ea77",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
+                "reference": "b51ac707cfa420b7bfd4e4d5e510ba8008e822b4",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "guzzlehttp/promises": "^1.5.3 || ^2.0.3",
-                "guzzlehttp/psr7": "^2.7.0",
+                "guzzlehttp/promises": "^2.3",
+                "guzzlehttp/psr7": "^2.8",
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.2 || ^3.0"
@@ -1863,7 +1863,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/7.9.3"
+                "source": "https://github.com/guzzle/guzzle/tree/7.10.0"
             },
             "funding": [
                 {
@@ -1879,7 +1879,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-03-27T13:37:11+00:00"
+            "time": "2025-08-23T22:36:01+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1966,16 +1966,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.7.1",
+            "version": "2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16"
+                "reference": "21dc724a0583619cd1652f673303492272778051"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/c2270caaabe631b3b44c85f99e5a04bbb8060d16",
-                "reference": "c2270caaabe631b3b44c85f99e5a04bbb8060d16",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/21dc724a0583619cd1652f673303492272778051",
+                "reference": "21dc724a0583619cd1652f673303492272778051",
                 "shasum": ""
             },
             "require": {
@@ -1991,7 +1991,7 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "http-interop/http-factory-tests": "0.9.0",
-                "phpunit/phpunit": "^8.5.39 || ^9.6.20"
+                "phpunit/phpunit": "^8.5.44 || ^9.6.25"
             },
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
@@ -2062,7 +2062,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.7.1"
+                "source": "https://github.com/guzzle/psr7/tree/2.8.0"
             },
             "funding": [
                 {
@@ -2078,7 +2078,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-03-27T12:30:47+00:00"
+            "time": "2025-08-23T21:21:41+00:00"
         },
         {
             "name": "horstoeko/mimedb",
@@ -3648,6 +3648,73 @@
             "time": "2024-09-09T07:06:30+00:00"
         },
         {
+            "name": "paragonie/constant_time_encoding",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/constant_time_encoding.git",
+                "reference": "df1e7fde177501eee2037dd159cf04f5f301a512"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/df1e7fde177501eee2037dd159cf04f5f301a512",
+                "reference": "df1e7fde177501eee2037dd159cf04f5f301a512",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9",
+                "vimeo/psalm": "^4|^5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ParagonIE\\ConstantTime\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Steve 'Sc00bz' Thomas",
+                    "email": "steve@tobtu.com",
+                    "homepage": "https://www.tobtu.com",
+                    "role": "Original Developer"
+                }
+            ],
+            "description": "Constant-time Implementations of RFC 4648 Encoding (Base-64, Base-32, Base-16)",
+            "keywords": [
+                "base16",
+                "base32",
+                "base32_decode",
+                "base32_encode",
+                "base64",
+                "base64_decode",
+                "base64_encode",
+                "bin2hex",
+                "encoding",
+                "hex",
+                "hex2bin",
+                "rfc4648"
+            ],
+            "support": {
+                "email": "info@paragonie.com",
+                "issues": "https://github.com/paragonie/constant_time_encoding/issues",
+                "source": "https://github.com/paragonie/constant_time_encoding"
+            },
+            "time": "2024-05-08T12:36:18+00:00"
+        },
+        {
             "name": "pentatrion/vite-bundle",
             "version": "v8.2.1",
             "source": {
@@ -3707,6 +3774,116 @@
                 "source": "https://github.com/lhapaipai/vite-bundle/tree/v8.2.1"
             },
             "time": "2025-08-16T20:29:55+00:00"
+        },
+        {
+            "name": "phpseclib/phpseclib",
+            "version": "3.0.46",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpseclib/phpseclib.git",
+                "reference": "56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6",
+                "reference": "56483a7de62a6c2a6635e42e93b8a9e25d4f0ec6",
+                "shasum": ""
+            },
+            "require": {
+                "paragonie/constant_time_encoding": "^1|^2|^3",
+                "paragonie/random_compat": "^1.4|^2.0|^9.99.99",
+                "php": ">=5.6.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "suggest": {
+                "ext-dom": "Install the DOM extension to load XML formatted public keys.",
+                "ext-gmp": "Install the GMP (GNU Multiple Precision) extension in order to speed up arbitrary precision integer arithmetic operations.",
+                "ext-libsodium": "SSH2/SFTP can make use of some algorithms provided by the libsodium-php extension.",
+                "ext-mcrypt": "Install the Mcrypt extension in order to speed up a few other cryptographic operations.",
+                "ext-openssl": "Install the OpenSSL extension in order to speed up a wide variety of cryptographic operations."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "phpseclib/bootstrap.php"
+                ],
+                "psr-4": {
+                    "phpseclib3\\": "phpseclib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jim Wigginton",
+                    "email": "terrafrost@php.net",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Patrick Monnerat",
+                    "email": "pm@datasphere.ch",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Andreas Fischer",
+                    "email": "bantu@phpbb.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Hans-Jürgen Petrich",
+                    "email": "petrich@tronic-media.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Graham Campbell",
+                    "email": "graham@alt-three.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Secure Communications Library - Pure-PHP implementations of RSA, AES, SSH2, SFTP, X.509 etc.",
+            "homepage": "http://phpseclib.sourceforge.net",
+            "keywords": [
+                "BigInteger",
+                "aes",
+                "asn.1",
+                "asn1",
+                "blowfish",
+                "crypto",
+                "cryptography",
+                "encryption",
+                "rsa",
+                "security",
+                "sftp",
+                "signature",
+                "signing",
+                "ssh",
+                "twofish",
+                "x.509",
+                "x509"
+            ],
+            "support": {
+                "issues": "https://github.com/phpseclib/phpseclib/issues",
+                "source": "https://github.com/phpseclib/phpseclib/tree/3.0.46"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/terrafrost",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/phpseclib",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-06-26T16:29:55+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
@@ -5097,23 +5274,45 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "fc8657ff50e8fd0409ccfa539efb3163a34aee56"
+                "reference": "46ed88a3cfffd58b0b41186289529e22556799ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/fc8657ff50e8fd0409ccfa539efb3163a34aee56",
-                "reference": "fc8657ff50e8fd0409ccfa539efb3163a34aee56",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/46ed88a3cfffd58b0b41186289529e22556799ea",
+                "reference": "46ed88a3cfffd58b0b41186289529e22556799ea",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "^4.3.1",
+                "lcobucci/jwt": "^5.5",
+                "league/flysystem": "^3.13.0",
+                "league/oauth2-server": "^9.1",
                 "pentatrion/vite-bundle": "^8.1",
                 "php": "~8.2.0 || ~8.3.0 || ~8.4.0",
+                "phpseclib/phpseclib": "^3.0",
+                "psr/http-message": "^1.1 || ^2.0",
                 "shopware/core": "dev-trunk",
+                "symfony/asset": "~7.3.0",
+                "symfony/cache": "~7.3.0",
+                "symfony/cache-contracts": "~3.6.0",
+                "symfony/clock": "~7.3.0",
+                "symfony/console": "~7.3.0",
+                "symfony/dependency-injection": "~7.3.0",
+                "symfony/event-dispatcher": "~7.3.0",
+                "symfony/event-dispatcher-contracts": "~3.6.0",
+                "symfony/filesystem": "~7.3.0",
+                "symfony/finder": "~7.3.0",
                 "symfony/framework-bundle": "~7.3.0",
+                "symfony/http-client": "~7.3.0",
+                "symfony/http-client-contracts": "~3.6.0",
                 "symfony/http-foundation": "~7.3.0",
+                "symfony/http-kernel": "~7.3.0",
                 "symfony/mime": "~7.3.0",
-                "symfony/routing": "~7.3.0"
+                "symfony/psr-http-message-bridge": "~7.3.0",
+                "symfony/routing": "~7.3.0",
+                "symfony/serializer": "~7.3.0",
+                "symfony/string": "~7.3.0",
+                "symfony/validator": "~7.3.0"
             },
             "default-branch": true,
             "type": "library",
@@ -5141,7 +5340,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-22T01:42:52+00:00"
+            "time": "2025-08-23T01:42:18+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5185,12 +5384,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "a8f42889ef714f5e7a294478499c20f6ca369df5"
+                "reference": "08b0e9880a8c99189ee1c8b9feecc0b322d38da5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/a8f42889ef714f5e7a294478499c20f6ca369df5",
-                "reference": "a8f42889ef714f5e7a294478499c20f6ca369df5",
+                "url": "https://api.github.com/repos/shopware/core/zipball/08b0e9880a8c99189ee1c8b9feecc0b322d38da5",
+                "reference": "08b0e9880a8c99189ee1c8b9feecc0b322d38da5",
                 "shasum": ""
             },
             "require": {
@@ -5261,6 +5460,7 @@
                 "symfony/finder": "~7.3.0",
                 "symfony/framework-bundle": "~7.3.0",
                 "symfony/http-client": "~7.3.0",
+                "symfony/http-client-contracts": "~3.6.0",
                 "symfony/http-foundation": "~7.3.0",
                 "symfony/http-kernel": "~7.3.0",
                 "symfony/intl": "~7.3.0",
@@ -5374,7 +5574,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-21T15:10:59+00:00"
+            "time": "2025-08-22T15:18:25+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5449,12 +5649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "06274f0877cc5a70b11de1f353443023b8e0e410"
+                "reference": "6383abc2826c868b5c3c4249e76081681c946c30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/06274f0877cc5a70b11de1f353443023b8e0e410",
-                "reference": "06274f0877cc5a70b11de1f353443023b8e0e410",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/6383abc2826c868b5c3c4249e76081681c946c30",
+                "reference": "6383abc2826c868b5c3c4249e76081681c946c30",
                 "shasum": ""
             },
             "require": {
@@ -5518,7 +5718,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-22T01:42:19+00:00"
+            "time": "2025-08-23T01:41:51+00:00"
         },
         {
             "name": "smalot/pdfparser",
