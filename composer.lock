@@ -3887,16 +3887,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "2.2.0",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "b9e61a61e39e02dd90944e9115241c7f7e76bfd8"
+                "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/b9e61a61e39e02dd90944e9115241c7f7e76bfd8",
-                "reference": "b9e61a61e39e02dd90944e9115241c7f7e76bfd8",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/1e0cd5370df5dd2e556a36b9c62f62e555870495",
+                "reference": "1e0cd5370df5dd2e556a36b9c62f62e555870495",
                 "shasum": ""
             },
             "require": {
@@ -3928,9 +3928,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.2.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/2.3.0"
             },
-            "time": "2025-07-13T07:04:09+00:00"
+            "time": "2025-08-30T15:50:23+00:00"
         },
         {
             "name": "psr/cache",
@@ -5274,12 +5274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "a1676bd7c9e98b26b4ad44af0b1fd7e2bca9103b"
+                "reference": "ce32df039e1c86c977bfc3f8fdf8629ff6c8ba6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/a1676bd7c9e98b26b4ad44af0b1fd7e2bca9103b",
-                "reference": "a1676bd7c9e98b26b4ad44af0b1fd7e2bca9103b",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/ce32df039e1c86c977bfc3f8fdf8629ff6c8ba6d",
+                "reference": "ce32df039e1c86c977bfc3f8fdf8629ff6c8ba6d",
                 "shasum": ""
             },
             "require": {
@@ -5340,7 +5340,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-29T01:42:56+00:00"
+            "time": "2025-08-30T01:42:03+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5384,12 +5384,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/core.git",
-                "reference": "80a9b3a5c0957dcff21479c93e4bbd8c03b2a068"
+                "reference": "1d7649848309d31a518cd05aa2e5dfa09eb5085c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/core/zipball/80a9b3a5c0957dcff21479c93e4bbd8c03b2a068",
-                "reference": "80a9b3a5c0957dcff21479c93e4bbd8c03b2a068",
+                "url": "https://api.github.com/repos/shopware/core/zipball/1d7649848309d31a518cd05aa2e5dfa09eb5085c",
+                "reference": "1d7649848309d31a518cd05aa2e5dfa09eb5085c",
                 "shasum": ""
             },
             "require": {
@@ -5574,7 +5574,7 @@
                 "source": "https://github.com/shopware/core/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-28T09:26:06+00:00"
+            "time": "2025-08-29T10:23:14+00:00"
         },
         {
             "name": "shopware/deployment-helper",
@@ -5649,12 +5649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "e18d5d9b5e40e343f351320ebb6a365d965cf9a3"
+                "reference": "d65b463460add3926fad6f58afb35269d65c9630"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/e18d5d9b5e40e343f351320ebb6a365d965cf9a3",
-                "reference": "e18d5d9b5e40e343f351320ebb6a365d965cf9a3",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/d65b463460add3926fad6f58afb35269d65c9630",
+                "reference": "d65b463460add3926fad6f58afb35269d65c9630",
                 "shasum": ""
             },
             "require": {
@@ -5718,7 +5718,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-08-29T01:42:32+00:00"
+            "time": "2025-08-30T01:41:44+00:00"
         },
         {
             "name": "smalot/pdfparser",
@@ -10045,16 +10045,16 @@
         },
         {
             "name": "symfony/type-info",
-            "version": "v7.3.2",
+            "version": "v7.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/type-info.git",
-                "reference": "b72d44c7d6638480fce101b7c4cd3abea4c2efba"
+                "reference": "aa64b58ed04517d4d730202dd035895743c23273"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/type-info/zipball/b72d44c7d6638480fce101b7c4cd3abea4c2efba",
-                "reference": "b72d44c7d6638480fce101b7c4cd3abea4c2efba",
+                "url": "https://api.github.com/repos/symfony/type-info/zipball/aa64b58ed04517d4d730202dd035895743c23273",
+                "reference": "aa64b58ed04517d4d730202dd035895743c23273",
                 "shasum": ""
             },
             "require": {
@@ -10104,7 +10104,7 @@
                 "type"
             ],
             "support": {
-                "source": "https://github.com/symfony/type-info/tree/v7.3.2"
+                "source": "https://github.com/symfony/type-info/tree/v7.3.3"
             },
             "funding": [
                 {
@@ -10124,7 +10124,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-07-10T05:39:45+00:00"
+            "time": "2025-08-28T09:38:04+00:00"
         },
         {
             "name": "symfony/validator",
