@@ -3274,16 +3274,16 @@
         },
         {
             "name": "marc-mabe/php-enum",
-            "version": "v4.7.1",
+            "version": "v4.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/marc-mabe/php-enum.git",
-                "reference": "7159809e5cfa041dca28e61f7f7ae58063aae8ed"
+                "reference": "bb426fcdd65c60fb3638ef741e8782508fda7eef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marc-mabe/php-enum/zipball/7159809e5cfa041dca28e61f7f7ae58063aae8ed",
-                "reference": "7159809e5cfa041dca28e61f7f7ae58063aae8ed",
+                "url": "https://api.github.com/repos/marc-mabe/php-enum/zipball/bb426fcdd65c60fb3638ef741e8782508fda7eef",
+                "reference": "bb426fcdd65c60fb3638ef741e8782508fda7eef",
                 "shasum": ""
             },
             "require": {
@@ -3341,9 +3341,9 @@
             ],
             "support": {
                 "issues": "https://github.com/marc-mabe/php-enum/issues",
-                "source": "https://github.com/marc-mabe/php-enum/tree/v4.7.1"
+                "source": "https://github.com/marc-mabe/php-enum/tree/v4.7.2"
             },
-            "time": "2024-11-28T04:54:44+00:00"
+            "time": "2025-09-14T11:18:39+00:00"
         },
         {
             "name": "masterminds/html5",
@@ -5274,12 +5274,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/administration.git",
-                "reference": "24335013a045efeed74d1b78fd0073f23072d575"
+                "reference": "dad228c59a473ad01c87999108e61c099d318203"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/administration/zipball/24335013a045efeed74d1b78fd0073f23072d575",
-                "reference": "24335013a045efeed74d1b78fd0073f23072d575",
+                "url": "https://api.github.com/repos/shopware/administration/zipball/dad228c59a473ad01c87999108e61c099d318203",
+                "reference": "dad228c59a473ad01c87999108e61c099d318203",
                 "shasum": ""
             },
             "require": {
@@ -5340,7 +5340,7 @@
                 "source": "https://github.com/shopware/administration/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-09-13T01:42:06+00:00"
+            "time": "2025-09-14T01:42:17+00:00"
         },
         {
             "name": "shopware/conflicts",
@@ -5649,12 +5649,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/shopware/storefront.git",
-                "reference": "23ebde71131c815e26a53d186af3f26e7c09bd6f"
+                "reference": "681dc14ae4f90232a24aa85930f46daebdfebc29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shopware/storefront/zipball/23ebde71131c815e26a53d186af3f26e7c09bd6f",
-                "reference": "23ebde71131c815e26a53d186af3f26e7c09bd6f",
+                "url": "https://api.github.com/repos/shopware/storefront/zipball/681dc14ae4f90232a24aa85930f46daebdfebc29",
+                "reference": "681dc14ae4f90232a24aa85930f46daebdfebc29",
                 "shasum": ""
             },
             "require": {
@@ -5718,7 +5718,7 @@
                 "source": "https://github.com/shopware/storefront/tree/trunk",
                 "wiki": "https://developer.shopware.com"
             },
-            "time": "2025-09-13T01:41:25+00:00"
+            "time": "2025-09-14T01:42:13+00:00"
         },
         {
             "name": "smalot/pdfparser",
